@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Exo+2:400,700|Roboto:400,700');
+@import 'global-variables';
+
+html, body, ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: $headline-font;
+}
+
+p, li {
+  font-family: $body-font;
+}
+
+body {
+  background-color: $white;
+  color: $black;
+}

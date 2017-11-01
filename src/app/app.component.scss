@@ -1,0 +1,15 @@
+@import '../global-variables';
+
+header {
+  height: 60px;
+  background-color: $dark-teal;
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+
+    li {
+      list-style: none;
+    }
+  }
+}
