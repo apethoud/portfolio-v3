@@ -11,10 +11,16 @@ header {
       list-style: none;
       font-size: 0.75em;
       padding: 2vw;
-    }
+      color: $white;
 
-    .logo {
-      margin-right: auto;
+      &.logo {
+        margin-right: auto;
+        width: 70px;
+
+        svg {
+          fill: $white;
+        }
+      }
     }
   }
 }
