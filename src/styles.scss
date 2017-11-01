@@ -7,15 +7,21 @@ html, body, ul, ol {
   padding: 0;
 }
 
-h1, h2, h3 {
-  font-family: $headline-font;
-}
-
-p, li {
-  font-family: $body-font;
+html {
+  font-size: calc(16px + (24 - 16)*(100vw - 400px)/(1500 - 400));
 }
 
 body {
   background-color: $white;
   color: $black;
+}
+
+h1, h2, h3 {
+  font-family: $headline-font;
+  font-weight: 400;
+}
+
+p, li {
+  font-family: $body-font;
+  font-weight: 400;
 }

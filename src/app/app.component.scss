@@ -1,15 +1,20 @@
 @import '../global-variables';
 
 header {
-  height: 60px;
-  background-color: $dark-teal;
+  position: absolute;
 
-  ul {
+  ul.nav {
+    width: 100vw;
     display: flex;
-    justify-content: flex-end;
 
     li {
       list-style: none;
+      font-size: 0.75em;
+      padding: 2vw;
+    }
+
+    .logo {
+      margin-right: auto;
     }
   }
 }
