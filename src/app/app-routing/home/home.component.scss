@@ -29,7 +29,7 @@ section#case-studies {
 
     h3.title {
       font-weight: 700;
-      color: $med-teal;
+      color: $light-teal;
     }
   
     h3.software-header {
@@ -45,7 +45,7 @@ section#case-studies {
         list-style: none;
         display: inline;
         font-size: 0.65em;
-        background-color: $light-teal;
+        background-color: $gray;
         color: $white;
         border-radius: 0.75em;
         -webkit-border-radius: 0.75em;
@@ -60,4 +60,39 @@ section#about {
   padding: 2em;
   background-color: $med-teal;
   color: $white;
+}
+
+section#call-to-action {
+  padding: 2em;
+
+  form {
+
+    .item {
+      padding-bottom: 1em;
+
+      label {
+        display: block;
+        font-family: $headline-font;
+        font-size: 0.75em;
+        text-transform: uppercase;
+        color: $med-teal;
+      }
+
+      input, textarea {
+        width: 75%;
+        padding: 0.25em;
+        background-color: $white;
+        border: 2px solid $med-teal;
+        border-radius: 0.15em;
+      }
+    }
+
+    button {
+      font-family: $headline-font;
+      font-size: 0.75em;
+      text-transform: uppercase;
+      background-color: $light-teal;
+      color: $white;
+    }
+  }
 }
