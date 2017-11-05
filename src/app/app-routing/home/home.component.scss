@@ -13,3 +13,41 @@ section.hero {
     font-size: 2em;
   }
 }
+
+section.case-studies {
+  margin: 4vw 0;
+
+  h2.section-header {
+    font-size: 0.9em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2vw;
+  }
+
+  h3.title {
+    font-weight: 700;
+    color: $med-teal;
+  }
+
+  h3.software-header {
+    font-size: 0.75em;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  ul.software {
+
+    li {
+      padding: 0.45em;
+      list-style: none;
+      display: inline;
+      font-size: 0.65em;
+      background-color: $light-teal;
+      color: $white;
+      border-radius: 0.75em;
+      -webkit-border-radius: 0.75em;
+      -moz-border-radius: 0.75em;
+      -ms-border-radius: 0.75em;
+    }
+  }
+}
