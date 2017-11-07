@@ -7,9 +7,9 @@
   <div class="ui container">
     <div class="ui stackable three column grid">
       <div class="column" *ngFor="let study of studies">
-        <div class="case-study">
+        <div class="case-study" routerLink="/case-studies/{{ study.name }}">
           <img src="http://via.placeholder.com/1024x768" class="ui image" alt="">
-          <h3 class="title">{{ study.name }}</h3>
+          <h3 class="title">{{ study.title }}</h3>
           <p>{{ study.description }}</p>
           <h3 class="software-header">Software Used:</h3>
           <ul class="software">

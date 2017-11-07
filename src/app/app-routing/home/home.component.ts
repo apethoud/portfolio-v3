@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+
 import { Study } from '../../study';
+
+import { CaseStudyService } from '../case-study.service';
+
 
 @Component({
   selector: 'app-home',
@@ -7,19 +11,19 @@ import { Study } from '../../study';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+  studies: Study[] = [];
 
-  studies = [
-    new Study('Foresight Budgets', 'Description of Foresight Budgets', ['HTML', 'CSS', 'AngularJS', 'Illustrator']),
-    new Study('OrdrSlip Kiosk', 'Description of OrdrSlip Kiosk', ['HTML', 'CSS', 'Angular 2', 'Illustrator']),
-    new Study('App Skin', 'Description of App Skin', ['HTML', 'CSS', 'Angular 2']),
-    new Study('Learn Node Project', 'Description of Learn Node Project', ['HTML', 'CSS', 'Angular 2', 'MongoDB']),
-    new Study('Shopping List App', 'Description of Shopping List App', ['HTML', 'CSS', 'Angular 2']),
-    new Study('Robot Fight Club Logo', 'Description of Robot Fight Club Logo', ['Illustrator'])
-  ];
-
-  constructor() { }
+  constructor(
+    private caseStudyService: CaseStudyService
+  ) { }
 
   ngOnInit() {
+    this.getCaseStudies();
+  }
+
+  getCaseStudies(): void {
+      this.caseStudyService.getCaseStudies()
+        .subscribe(studies => this.studies = studies);
   }
 
 }
