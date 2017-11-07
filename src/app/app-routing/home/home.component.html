@@ -13,10 +13,7 @@
           <p>{{ study.description }}</p>
           <h3 class="software-header">Software Used:</h3>
           <ul class="software">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Javascript</li>
-            <li>Angular</li>
+            <li *ngFor="let software of study.software">{{ software }}</li>
           </ul>
         </div>
       </div>
