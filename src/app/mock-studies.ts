@@ -20,16 +20,16 @@ export const STUDIES: Study[] = [
     software: ['HTML', 'CSS', 'Angular 2'] 
   },
   {
-    name: 'learn-node-project',
-    title: 'Learn Node Project', 
-    description: 'Description of Learn Node Project', 
-    software: ['HTML', 'CSS', 'Angular 2', 'MongoDB'] 
+    name: 'robot-t-shirt',
+    title: 'Robot T-Shirt', 
+    description: 'Description of Robot T-Shirt', 
+    software: ['Illustrator'] 
   },
   {
-    name: 'shopping-list-app',
-    title: 'Shopping List App', 
-    description: 'Description of Shopping List App', 
-    software: ['HTML', 'CSS', 'Angular 2'] 
+    name: 'foresight-icons',
+    title: 'Foresight Icons', 
+    description: 'Description of Foresight Icons', 
+    software: ['Illustrator']  
   },
   {
     name: 'robot-fight-club-logo',
