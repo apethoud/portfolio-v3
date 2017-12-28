@@ -7,6 +7,7 @@ import { HomeComponent } from './app-routing/home/home.component';
 import { CaseStudyComponent } from './app-routing/case-study/case-study.component';
 
 import { CaseStudyService } from './app-routing/case-study.service';
+import { HighlightService } from './app-routing/highlight.service';
 
 @NgModule({
   imports: [
@@ -18,7 +19,10 @@ import { CaseStudyService } from './app-routing/case-study.service';
     HomeComponent,
     CaseStudyComponent
   ],
-  providers: [ CaseStudyService ],
+  providers: [ 
+    CaseStudyService,
+    HighlightService
+   ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }

@@ -2,6 +2,20 @@
   <h1>Web assets ready for launch</h1>
 </section>
 
+<section id="highlights">
+  <div class="ui container">
+    <div class="ui stackable three column grid">
+      <div class="column" *ngFor="let highlight of highlights">
+        <div class="highlight" routerLink="/case-studies/{{ highlight.name }}">
+          <img src="http://via.placeholder.com/1024x768" class="ui image" alt="">
+          <h3 class="title">{{ highlight.title }}</h3>
+          <p>{{ highlight.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="case-studies">
   <h2 class="section-header">Case Studies</h2>
   <div class="ui container">
