@@ -27,7 +27,10 @@ export class CaseStudyComponent implements OnInit {
   getCaseStudy(): void {
     const name = this.route.snapshot.paramMap.get('name');
     this.caseStudyService.getCaseStudy(name)
-      .subscribe(study => this.study = study);
+      .subscribe(study => {
+        this.study = study
+        console.log("this.study is: ", this.study);
+      });
   }
 
 }

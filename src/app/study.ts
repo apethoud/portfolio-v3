@@ -3,5 +3,7 @@ export class Study {
     public name: string,
     public title: string,
     public description: string,
-    public software: any = null) {}
+    public software: any = null,
+    public featuredItems: any,
+    public designStrategy: any) {}
 }
