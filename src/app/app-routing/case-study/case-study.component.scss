@@ -1,3 +1,18 @@
-.hero {
-  height: 100vh;
+@import '../../../global-variables';
+
+.study {
+
+  section.hero {
+    // background-image: url('../../../assets/office-teal-monochrome.png');
+    background-size: cover;
+    height: 80vh;
+
+    h1 {
+      position: absolute;
+      top: 30vh;
+      left: 10vw;
+      color: $white;
+      font-size: 2em;
+    }
+  }
 }

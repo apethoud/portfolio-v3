@@ -6,6 +6,7 @@ export const STUDIES: Study[] = [
     title: 'Foresight Budgets', 
     description: 'Description of Foresight Budgets', 
     software: ['HTML', 'CSS', 'AngularJS', 'Illustrator'],
+    heroImage: '../../../assets/office-teal-monochrome.png',
     featuredItems: [
       {
         id: 1,
@@ -82,6 +83,7 @@ export const STUDIES: Study[] = [
     title: 'OrdrSlip Kiosk', 
     description: 'Description of OrdrSlip Kiosk', 
     software: ['HTML', 'CSS', 'Angular 2', 'Illustrator'],
+    heroImage: '../../../assets/office-teal-monochrome.png',
     featuredItems: [
       {
         id: 1,
@@ -158,6 +160,7 @@ export const STUDIES: Study[] = [
     title: 'App Skin', 
     description: 'Description of App Skin', 
     software: ['HTML', 'CSS', 'Angular 2'],
+    heroImage: '../../../assets/office-teal-monochrome.png',
     featuredItems: [
       {
         id: 1,
@@ -234,6 +237,7 @@ export const STUDIES: Study[] = [
     title: 'Robot T-Shirt', 
     description: 'Description of Robot T-Shirt', 
     software: ['Illustrator'],
+    heroImage: '../../../assets/office-teal-monochrome.png',
     featuredItems: [
       {
         id: 1,
@@ -310,6 +314,7 @@ export const STUDIES: Study[] = [
     title: 'Foresight Icons', 
     description: 'Description of Foresight Icons', 
     software: ['Illustrator'],
+    heroImage: '../../../assets/office-teal-monochrome.png',
     featuredItems: [
       {
         id: 1,
@@ -386,6 +391,7 @@ export const STUDIES: Study[] = [
     title: 'Robot Fight Club Logo', 
     description: 'Description of Robot Fight Club Logo', 
     software: ['Illustrator'],
+    heroImage: '../../../assets/office-teal-monochrome.png',
     featuredItems: [
       {
         id: 1,

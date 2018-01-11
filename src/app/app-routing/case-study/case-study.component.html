@@ -1,3 +1,5 @@
 <div class="study" *ngIf="study">
-  <p>{{ study.title }}</p>
+  <section class="hero" [ngStyle]="{ 'background-image': 'url(' + this.study.heroImage + ')'}">
+    <h1>{{ study.title }}</h1>
+  </section>
 </div>

@@ -4,6 +4,7 @@ export class Study {
     public title: string,
     public description: string,
     public software: any = null,
+    public heroImage: string,
     public featuredItems: any,
     public designStrategy: any) {}
 }
