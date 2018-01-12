@@ -20,6 +20,8 @@ export class CaseStudyComponent implements OnInit {
     private location: Location
   ) { }
 
+  featuredColumns = [];
+
   ngOnInit(): void {
     this.getCaseStudy();
   }
@@ -29,8 +31,23 @@ export class CaseStudyComponent implements OnInit {
     this.caseStudyService.getCaseStudy(name)
       .subscribe(study => {
         this.study = study
-        console.log("this.study is: ", this.study);
+        this.populateColumns();
+        console.log(this.featuredColumns);
       });
   }
 
+  populateColumns() {
+    let that = this;
+    this.study.featuredColIndex.forEach(function(indexItem){
+      let column = [];
+      indexItem.featureOrder.forEach(function(orderNum){
+        for (let i = 0; i < that.study.featuredItems.length; i++) {
+            if (that.study.featuredItems[i].id === orderNum) {
+              column.push(that.study.featuredItems[i]);
+            }
+        }
+      });
+      that.featuredColumns.push(column);
+    });
+  };
 }

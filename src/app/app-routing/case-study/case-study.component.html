@@ -6,9 +6,9 @@
   <section class="featured-items">
     <div class="ui container">
       <div class="ui stackable three column grid">
-        <div class="column">
-          <div class="featured-item">
-            
+        <div class="column" *ngFor="let column of this.featuredColumns">
+          <div class="featured-item" *ngFor="let item of column">
+            {{ item.title }}
           </div>
         </div>
       </div>
