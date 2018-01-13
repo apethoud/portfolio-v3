@@ -14,4 +14,25 @@
       font-size: 2em;
     }
   }
+
+  section.featured-items {
+
+    .featured-item {
+      position: relative;
+      margin-top: 4vh;
+
+      img {
+        position: relative;
+        top: 2vw;
+        z-index: 50;
+      }
+
+      .text-box {
+        padding: 2vw;
+        padding-top: 3vw;
+        background-color: darken($white, 5%);
+        border-radius: 2vw;
+      }
+    }
+  }
 }
