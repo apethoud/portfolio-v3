@@ -32,7 +32,6 @@ export class CaseStudyComponent implements OnInit {
       .subscribe(study => {
         this.study = study
         this.populateColumns();
-        console.log(this.featuredColumns);
       });
   }
 
@@ -50,4 +49,8 @@ export class CaseStudyComponent implements OnInit {
       that.featuredColumns.push(column);
     });
   };
+
+  isString(itemContent) {
+    return typeof itemContent === 'string';
+  }
 }
