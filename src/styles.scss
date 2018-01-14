@@ -7,7 +7,7 @@ html, body, ul, ol {
   padding: 0;
 }
 
-html {
+html, h1, h2, h3, p, li, span, label, button {
   font-size: calc(16px + (24 - 16)*(100vw - 400px)/(1500 - 400));
 }
 
@@ -20,6 +20,25 @@ body {
 h1, h2, h3 {
   font-family: $headline-font;
   font-weight: 400;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+form {
+  
+  label, button.ui.button {
+    font-size: 0.75em;
+  }
 }
 
 p, li {

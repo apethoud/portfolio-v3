@@ -10,9 +10,9 @@
           <div class="featured-item" *ngFor="let item of column">
             <img src="http://via.placeholder.com/80x80" alt="" class="ui tiny circular centered image">
             <div class="text-box">
-              <h2>{{ item.title }}</h2>
-              <p *ngIf="this.isString(item.content)">{{ item.content }}</p>
-              <ul *ngIf="!this.isString(item.content)">
+              <h2 class="title">{{ item.title }}</h2>
+              <p *ngIf="this.isString(item.content)" class="content">{{ item.content }}</p>
+              <ul *ngIf="!this.isString(item.content)" class="content">
                 <li *ngFor="let bullet of item.content">{{ bullet }}</li>
               </ul>
             </div>

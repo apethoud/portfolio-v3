@@ -11,7 +11,7 @@
       top: 30vh;
       left: 10vw;
       color: $white;
-      font-size: 2em;
+      // font-size: 2em;
     }
   }
 
@@ -32,6 +32,10 @@
         padding-top: 3vw;
         background-color: darken($white, 5%);
         border-radius: 2vw;
+
+        .title {
+          text-align: center;
+        }
       }
     }
   }

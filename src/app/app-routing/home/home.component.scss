@@ -10,7 +10,7 @@ section.hero {
     top: 30vh;
     left: 10vw;
     color: $white;
-    font-size: 2em;
+    // font-size: 2em;
   }
 }
 
@@ -18,49 +18,55 @@ section#case-studies {
   margin: 4vw 0;
 
   h2.section-header {
-    font-size: 0.9em;
+    // font-size: 0.9em;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 2vw;
   }
 
   .case-study {
-    padding: 0.5em 0.5em 2em 0.5em;
-    border-radius: 10px;
+    padding: 1vw;
+    padding-bottom: 2vw;
+    // border-radius: 2vw;
     // border: 2px solid transparent;
     cursor: pointer;
     transition: background-color, 0.15s;
+    background-color: darken($white, 5%);
 
     &:hover {
       // border: 2px solid black;
       background-color: lighten($gray, 60%);
     }
 
-    h3.title {
-      font-weight: 700;
-      color: $light-teal;
-    }
-  
-    h3.software-header {
-      font-size: 0.75em;
-      font-weight: 700;
-      text-transform: uppercase;
-    }
-  
-    ul.software {
-  
-      li {
-        margin: 0 0.2em;
-        padding: 0.45em;
-        list-style: none;
-        display: inline;
-        font-size: 0.65em;
-        background-color: $gray;
-        color: $white;
-        border-radius: 0.75em;
-        -webkit-border-radius: 0.75em;
-        -moz-border-radius: 0.75em;
-        -ms-border-radius: 0.75em;
+    .text-box {
+      padding: 1vw;
+
+      h3.title {
+        font-weight: 700;
+        color: $light-teal;
+      }
+    
+      h3.software-header {
+        font-size: 0.75em;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+    
+      ul.software {
+    
+        li {
+          margin: 0 0.2em;
+          padding: 0 0.45em;
+          list-style: none;
+          display: inline-block;
+          font-size: 0.65em;
+          background-color: $gray;
+          color: $white;
+          border-radius: 0.75em;
+          -webkit-border-radius: 0.75em;
+          -moz-border-radius: 0.75em;
+          -ms-border-radius: 0.75em;
+        }
       }
     }
   }
@@ -83,7 +89,7 @@ section#call-to-action {
       label {
         display: block;
         font-family: $headline-font;
-        font-size: 0.75em;
+        // font-size: 0.75em;
         text-transform: uppercase;
         color: $med-teal;
       }
@@ -99,7 +105,7 @@ section#call-to-action {
 
     button {
       font-family: $headline-font;
-      font-size: 0.75em;
+      // font-size: 0.75em;
       text-transform: uppercase;
       background-color: $light-teal;
       color: $white;
