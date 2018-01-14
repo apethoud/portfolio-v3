@@ -28,14 +28,19 @@
 
   <section class="design-strategy">
     <div class="ui container">
-      <img src="{{ study.designStrategy.icon }}" alt="" class="ui tiny circular centered image">
-      <div class="text-box">
-        <h2 class="title">{{ study.designStrategy.title }}</h2>
-        <p class="title">{{ study.designStrategy.content }}</p>
-        <div class="ui stackable three column grid">
-          <div class="column" *ngFor="let details of study.designStrategy.strategyDetails">
-            <img src="#" alt="">
-            <p>{{ details.content }}</p>
+      <div class="design-strategy-header">
+        <img src="{{ study.designStrategy.icon }}" alt="" class="ui tiny circular centered image">
+        <div class="text-box">
+          <h2 class="title">{{ study.designStrategy.title }}</h2>
+          <p class="content">{{ study.designStrategy.content }}</p>
+          <div class="design-strategy-details">
+            <div class="ui stackable three column grid">
+              <div class="column" *ngFor="let details of study.designStrategy.strategyDetails">
+                <img src="{{ details.imageUrl }}" class="ui image" alt="">
+                <h3 class="title">{{ details.title }}</h3>
+                <p class="content">{{ details.content }}</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

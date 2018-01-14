@@ -71,15 +71,18 @@ export const STUDIES: Study[] = [
       content: "Intro to design strategy.",
       strategyDetails: [
         {
-          imageUrl: "url here",
+          title: "Detail Title",
+          imageUrl: "../../../assets/office-teal-monochrome.png",
           content: "details here"
         },
         {
-          imageUrl: "url here",
+          title: "Detail Title",
+          imageUrl: "../../../assets/office-teal-monochrome.png",
           content: "details here"
         },
         {
-          imageUrl: "url here",
+          title: "Detail Title",
+          imageUrl: "../../../assets/office-teal-monochrome.png",
           content: "details here"
         },
       ]
@@ -155,15 +158,18 @@ export const STUDIES: Study[] = [
       content: "Intro to design strategy.",
       strategyDetails: [
         {
-          imageUrl: "url here",
+          title: "Detail Title",
+          imageUrl: "../../../assets/office-teal-monochrome.png",
           content: "details here"
         },
         {
-          imageUrl: "url here",
+          title: "Detail Title",
+          imageUrl: "../../../assets/office-teal-monochrome.png",
           content: "details here"
         },
         {
-          imageUrl: "url here",
+          title: "Detail Title",
+          imageUrl: "../../../assets/office-teal-monochrome.png",
           content: "details here"
         },
       ]
@@ -239,15 +245,18 @@ export const STUDIES: Study[] = [
       content: "Intro to design strategy.",
       strategyDetails: [
         {
-          imageUrl: "url here",
+          title: "Detail Title",
+          imageUrl: "../../../assets/office-teal-monochrome.png",
           content: "details here"
         },
         {
-          imageUrl: "url here",
+          title: "Detail Title",
+          imageUrl: "../../../assets/office-teal-monochrome.png",
           content: "details here"
         },
         {
-          imageUrl: "url here",
+          title: "Detail Title",
+          imageUrl: "../../../assets/office-teal-monochrome.png",
           content: "details here"
         },
       ]
@@ -323,15 +332,18 @@ export const STUDIES: Study[] = [
       content: "Intro to design strategy.",
       strategyDetails: [
         {
-          imageUrl: "url here",
+          title: "Detail Title",
+          imageUrl: "../../../assets/office-teal-monochrome.png",
           content: "details here"
         },
         {
-          imageUrl: "url here",
+          title: "Detail Title",
+          imageUrl: "../../../assets/office-teal-monochrome.png",
           content: "details here"
         },
         {
-          imageUrl: "url here",
+          title: "Detail Title",
+          imageUrl: "../../../assets/office-teal-monochrome.png",
           content: "details here"
         },
       ]
@@ -407,15 +419,18 @@ export const STUDIES: Study[] = [
       content: "Intro to design strategy.",
       strategyDetails: [
         {
-          imageUrl: "url here",
+          title: "Detail Title",
+          imageUrl: "../../../assets/office-teal-monochrome.png",
           content: "details here"
         },
         {
-          imageUrl: "url here",
+          title: "Detail Title",
+          imageUrl: "../../../assets/office-teal-monochrome.png",
           content: "details here"
         },
         {
-          imageUrl: "url here",
+          title: "Detail Title",
+          imageUrl: "../../../assets/office-teal-monochrome.png",
           content: "details here"
         },
       ]
@@ -491,15 +506,18 @@ export const STUDIES: Study[] = [
       content: "Intro to design strategy.",
       strategyDetails: [
         {
-          imageUrl: "url here",
+          title: "Detail Title",
+          imageUrl: "../../../assets/office-teal-monochrome.png",
           content: "details here"
         },
         {
-          imageUrl: "url here",
+          title: "Detail Title",
+          imageUrl: "../../../assets/office-teal-monochrome.png",
           content: "details here"
         },
         {
-          imageUrl: "url here",
+          title: "Detail Title",
+          imageUrl: "../../../assets/office-teal-monochrome.png",
           content: "details here"
         },
       ]
