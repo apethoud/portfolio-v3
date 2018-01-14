@@ -12,7 +12,7 @@
       <div class="ui stackable three column grid">
         <div class="column" *ngFor="let column of this.featuredColumns">
           <div class="featured-item" *ngFor="let item of column">
-            <img src="http://via.placeholder.com/80x80" alt="" class="ui tiny circular centered image">
+            <img src="{{ item.icon }}" alt="" class="ui tiny circular centered image">
             <div class="text-box">
               <h2 class="title">{{ item.title }}</h2>
               <p *ngIf="this.isString(item.content)" class="content">{{ item.content }}</p>
@@ -20,6 +20,22 @@
                 <li *ngFor="let bullet of item.content">{{ bullet }}</li>
               </ul>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="design-strategy">
+    <div class="ui container">
+      <img src="{{ study.designStrategy.icon }}" alt="" class="ui tiny circular centered image">
+      <div class="text-box">
+        <h2 class="title">{{ study.designStrategy.title }}</h2>
+        <p class="title">{{ study.designStrategy.content }}</p>
+        <div class="ui stackable three column grid">
+          <div class="column" *ngFor="let details of study.designStrategy.strategyDetails">
+            <img src="#" alt="">
+            <p>{{ details.content }}</p>
           </div>
         </div>
       </div>

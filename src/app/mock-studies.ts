@@ -24,66 +24,66 @@ export const STUDIES: Study[] = [
     featuredItems: [
       {
         id: 1,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Concept",
         content: "A personal finance app designed to be forward-thinking and accurate."
       },
       {
         id: 2,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "The Story Behind It",
         content: "I was personally fed up with using poorly-designed finance management software for my everyday finances, so I recruited a team of developers to help me design a better one for a local coding competition."
       },
       {
         id: 3,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "My Role",
         content: ['Concept Creator', 'Development Team Leader', 'Lead UX/UI Designer', 'Icon Designer']
       },
       {
         id: 4,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Project Goal",
         content: "Gain experience designing an app from scratch."
       },
       {
         id: 5,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Project Outcome",
         content: "Created a functional and beautifully-designed app."
       },
       {
         id: 6,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Most Proud Of",
         content: "The progress my team and I were able to make in such a short time."
       },
       {
         id: 7,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Greatest Challenge",
         content: "Interfacing with a third-party API for importing bank transactions securely."
       },
     ],
-    designStrategy: [
-      {
-        title: "Design Strategy",
-        strategyDetails: [
-          {
-            url: "url here",
-            details: "details here"
-          },
-          {
-            url: "url here",
-            details: "details here"
-          },
-          {
-            url: "url here",
-            details: "details here"
-          },
-        ]
-      }
-    ]
+    designStrategy: {
+      icon: "http://via.placeholder.com/80x80",
+      title: "Design Strategy",
+      content: "Intro to design strategy.",
+      strategyDetails: [
+        {
+          imageUrl: "url here",
+          content: "details here"
+        },
+        {
+          imageUrl: "url here",
+          content: "details here"
+        },
+        {
+          imageUrl: "url here",
+          content: "details here"
+        },
+      ]
+    }
   },
   {
     name: 'ordrslip-kiosk',
@@ -108,66 +108,66 @@ export const STUDIES: Study[] = [
     featuredItems: [
       {
         id: 1,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Concept",
         content: "A personal finance app designed to be forward-thinking and accurate."
       },
       {
         id: 2,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "The Story Behind It",
         content: "I was personally fed up with using poorly-designed finance management software for my everyday finances, so I recruited a team of developers to help me design a better one for a local coding competition."
       },
       {
         id: 3,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "My Role",
         content: ['Concept Creator', 'Development Team Leader', 'Lead UX/UI Designer', 'Icon Designer']
       },
       {
         id: 4,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Project Goal",
         content: "Gain experience designing an app from scratch."
       },
       {
         id: 5,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Project Outcome",
         content: "Created a functional and beautifully-designed app."
       },
       {
         id: 6,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Most Proud Of",
         content: "The progress my team and I were able to make in such a short time."
       },
       {
         id: 7,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Greatest Challenge",
         content: "Interfacing with a third-party API for importing bank transactions securely."
       },
     ],
-    designStrategy: [
-      {
-        title: "Design Strategy",
-        strategyDetails: [
-          {
-            url: "url here",
-            details: "details here"
-          },
-          {
-            url: "url here",
-            details: "details here"
-          },
-          {
-            url: "url here",
-            details: "details here"
-          },
-        ]
-      }
-    ]
+    designStrategy: {
+      icon: "http://via.placeholder.com/80x80",
+      title: "Design Strategy",
+      content: "Intro to design strategy.",
+      strategyDetails: [
+        {
+          imageUrl: "url here",
+          content: "details here"
+        },
+        {
+          imageUrl: "url here",
+          content: "details here"
+        },
+        {
+          imageUrl: "url here",
+          content: "details here"
+        },
+      ]
+    }
   },
   {
     name: 'app-skin',
@@ -192,66 +192,66 @@ export const STUDIES: Study[] = [
     featuredItems: [
       {
         id: 1,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Concept",
         content: "A personal finance app designed to be forward-thinking and accurate."
       },
       {
         id: 2,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "The Story Behind It",
         content: "I was personally fed up with using poorly-designed finance management software for my everyday finances, so I recruited a team of developers to help me design a better one for a local coding competition."
       },
       {
         id: 3,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "My Role",
         content: ['Concept Creator', 'Development Team Leader', 'Lead UX/UI Designer', 'Icon Designer']
       },
       {
         id: 4,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Project Goal",
         content: "Gain experience designing an app from scratch."
       },
       {
         id: 5,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Project Outcome",
         content: "Created a functional and beautifully-designed app."
       },
       {
         id: 6,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Most Proud Of",
         content: "The progress my team and I were able to make in such a short time."
       },
       {
         id: 7,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Greatest Challenge",
         content: "Interfacing with a third-party API for importing bank transactions securely."
       },
     ],
-    designStrategy: [
-      {
-        title: "Design Strategy",
-        strategyDetails: [
-          {
-            url: "url here",
-            details: "details here"
-          },
-          {
-            url: "url here",
-            details: "details here"
-          },
-          {
-            url: "url here",
-            details: "details here"
-          },
-        ]
-      }
-    ] 
+    designStrategy: {
+      icon: "http://via.placeholder.com/80x80",
+      title: "Design Strategy",
+      content: "Intro to design strategy.",
+      strategyDetails: [
+        {
+          imageUrl: "url here",
+          content: "details here"
+        },
+        {
+          imageUrl: "url here",
+          content: "details here"
+        },
+        {
+          imageUrl: "url here",
+          content: "details here"
+        },
+      ]
+    }
   },
   {
     name: 'robot-t-shirt',
@@ -276,66 +276,66 @@ export const STUDIES: Study[] = [
     featuredItems: [
       {
         id: 1,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Concept",
         content: "A personal finance app designed to be forward-thinking and accurate."
       },
       {
         id: 2,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "The Story Behind It",
         content: "I was personally fed up with using poorly-designed finance management software for my everyday finances, so I recruited a team of developers to help me design a better one for a local coding competition."
       },
       {
         id: 3,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "My Role",
         content: ['Concept Creator', 'Development Team Leader', 'Lead UX/UI Designer', 'Icon Designer']
       },
       {
         id: 4,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Project Goal",
         content: "Gain experience designing an app from scratch."
       },
       {
         id: 5,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Project Outcome",
         content: "Created a functional and beautifully-designed app."
       },
       {
         id: 6,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Most Proud Of",
         content: "The progress my team and I were able to make in such a short time."
       },
       {
         id: 7,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Greatest Challenge",
         content: "Interfacing with a third-party API for importing bank transactions securely."
       },
     ],
-    designStrategy: [
-      {
-        title: "Design Strategy",
-        strategyDetails: [
-          {
-            url: "url here",
-            details: "details here"
-          },
-          {
-            url: "url here",
-            details: "details here"
-          },
-          {
-            url: "url here",
-            details: "details here"
-          },
-        ]
-      }
-    ] 
+    designStrategy: {
+      icon: "http://via.placeholder.com/80x80",
+      title: "Design Strategy",
+      content: "Intro to design strategy.",
+      strategyDetails: [
+        {
+          imageUrl: "url here",
+          content: "details here"
+        },
+        {
+          imageUrl: "url here",
+          content: "details here"
+        },
+        {
+          imageUrl: "url here",
+          content: "details here"
+        },
+      ]
+    } 
   },
   {
     name: 'foresight-icons',
@@ -360,66 +360,66 @@ export const STUDIES: Study[] = [
     featuredItems: [
       {
         id: 1,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Concept",
         content: "A personal finance app designed to be forward-thinking and accurate."
       },
       {
         id: 2,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "The Story Behind It",
         content: "I was personally fed up with using poorly-designed finance management software for my everyday finances, so I recruited a team of developers to help me design a better one for a local coding competition."
       },
       {
         id: 3,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "My Role",
         content: ['Concept Creator', 'Development Team Leader', 'Lead UX/UI Designer', 'Icon Designer']
       },
       {
         id: 4,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Project Goal",
         content: "Gain experience designing an app from scratch."
       },
       {
         id: 5,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Project Outcome",
         content: "Created a functional and beautifully-designed app."
       },
       {
         id: 6,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Most Proud Of",
         content: "The progress my team and I were able to make in such a short time."
       },
       {
         id: 7,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Greatest Challenge",
         content: "Interfacing with a third-party API for importing bank transactions securely."
       },
     ],
-    designStrategy: [
-      {
-        title: "Design Strategy",
-        strategyDetails: [
-          {
-            url: "url here",
-            details: "details here"
-          },
-          {
-            url: "url here",
-            details: "details here"
-          },
-          {
-            url: "url here",
-            details: "details here"
-          },
-        ]
-      }
-    ]  
+    designStrategy: {
+      icon: "http://via.placeholder.com/80x80",
+      title: "Design Strategy",
+      content: "Intro to design strategy.",
+      strategyDetails: [
+        {
+          imageUrl: "url here",
+          content: "details here"
+        },
+        {
+          imageUrl: "url here",
+          content: "details here"
+        },
+        {
+          imageUrl: "url here",
+          content: "details here"
+        },
+      ]
+    } 
   },
   {
     name: 'robot-fight-club-logo',
@@ -444,65 +444,65 @@ export const STUDIES: Study[] = [
     featuredItems: [
       {
         id: 1,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Concept",
         content: "A personal finance app designed to be forward-thinking and accurate."
       },
       {
         id: 2,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "The Story Behind It",
         content: "I was personally fed up with using poorly-designed finance management software for my everyday finances, so I recruited a team of developers to help me design a better one for a local coding competition."
       },
       {
         id: 3,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "My Role",
         content: ['Concept Creator', 'Development Team Leader', 'Lead UX/UI Designer', 'Icon Designer']
       },
       {
         id: 4,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Project Goal",
         content: "Gain experience designing an app from scratch."
       },
       {
         id: 5,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Project Outcome",
         content: "Created a functional and beautifully-designed app."
       },
       {
         id: 6,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Most Proud Of",
         content: "The progress my team and I were able to make in such a short time."
       },
       {
         id: 7,
-        icon: "url-here",
+        icon: "http://via.placeholder.com/80x80",
         title: "Greatest Challenge",
         content: "Interfacing with a third-party API for importing bank transactions securely."
       },
     ],
-    designStrategy: [
-      {
-        title: "Design Strategy",
-        strategyDetails: [
-          {
-            url: "url here",
-            details: "details here"
-          },
-          {
-            url: "url here",
-            details: "details here"
-          },
-          {
-            url: "url here",
-            details: "details here"
-          },
-        ]
-      }
-    ] 
+    designStrategy: {
+      icon: "http://via.placeholder.com/80x80",
+      title: "Design Strategy",
+      content: "Intro to design strategy.",
+      strategyDetails: [
+        {
+          imageUrl: "url here",
+          content: "details here"
+        },
+        {
+          imageUrl: "url here",
+          content: "details here"
+        },
+        {
+          imageUrl: "url here",
+          content: "details here"
+        },
+      ]
+    } 
   }
 ];
