@@ -5,7 +5,9 @@
     <h1>{{ study.title }}</h1>
   </section>
 
-  <section class="hero" [ngStyle]="{ 'background-image': 'url(' + this.study.heroImage + ')'}"></section>
+  <div class="ui container">
+    <section class="hero" [ngStyle]="{ 'background-image': 'url(' + this.study.heroImage + ')'}"></section>
+  </div>
 
   <section class="featured-items">
     <div class="ui container">
