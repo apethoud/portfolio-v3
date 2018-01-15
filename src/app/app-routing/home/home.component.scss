@@ -14,8 +14,32 @@ section.hero {
   }
 }
 
+section#highlights {
+  margin: 8vw 0;
+
+  .highlight {
+    padding: 1vw;
+    padding-bottom: 2vw;
+
+    img {
+      margin: 0 auto;
+    }
+
+    h3.title {
+      font-weight: 700;
+      color: $med-teal;
+      text-align: center;
+    }
+
+    p.description {
+      font-size: 0.75em;
+      text-align: center;
+    }
+  }
+}
+
 section#case-studies {
-  margin: 4vw 0;
+  margin: 8vw 0;
 
   h2.section-header {
     // font-size: 0.9em;
@@ -44,6 +68,7 @@ section#case-studies {
       h3.title {
         font-weight: 700;
         color: $med-teal;
+        text-align: center;
       }
 
       p.description {
@@ -79,7 +104,7 @@ section#case-studies {
 }
 
 section#about {
-  padding: 2em;
+  padding: 8vw 0;
   background-color: $med-teal;
   color: $white;
 }

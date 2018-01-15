@@ -7,9 +7,9 @@
     <div class="ui stackable three column grid">
       <div class="column" *ngFor="let highlight of highlights">
         <div class="highlight" routerLink="/case-studies/{{ highlight.name }}">
-          <img src="{{ highlight.icon }}" class="ui image" alt="">
+          <img src="{{ highlight.icon }}" class="ui medium circular image" alt="">
           <h3 class="title">{{ highlight.title }}</h3>
-          <p>{{ highlight.description }}</p>
+          <p class="description">{{ highlight.description }}</p>
         </div>
       </div>
     </div>
