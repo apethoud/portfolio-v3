@@ -45,10 +45,15 @@ section#case-studies {
         font-weight: 700;
         color: $med-teal;
       }
+
+      p.description {
+        font-size: 0.75em;
+      }
     
       h3.software-header {
-        font-size: 0.75em;
+        font-size: 0.65em;
         font-weight: 700;
+        color: $med-teal-half;
         text-transform: uppercase;
       }
     
@@ -59,9 +64,10 @@ section#case-studies {
           padding: 0 0.45em;
           list-style: none;
           display: inline-block;
-          font-size: 0.65em;
-          background-color: $gray;
-          color: $white;
+          font-size: 0.55em;
+          background-color: $med-teal-min;
+          color: $black;
+          font-weight: 700;
           border-radius: 0.75em;
           -webkit-border-radius: 0.75em;
           -moz-border-radius: 0.75em;
