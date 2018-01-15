@@ -1,11 +1,11 @@
-<div class="study" *ngIf="study">
-  <section class="hero" [ngStyle]="{ 'background-image': 'url(' + this.study.heroImage + ')'}">
-    
-  </section>
+<section class="nav-background"></section>
 
+<div class="study" *ngIf="study">
   <section class="case-study-title">
     <h1>{{ study.title }}</h1>
   </section>
+
+  <section class="hero" [ngStyle]="{ 'background-image': 'url(' + this.study.heroImage + ')'}"></section>
 
   <section class="featured-items">
     <div class="ui container">
@@ -34,12 +34,10 @@
           <h2 class="title">{{ study.designStrategy.title }}</h2>
           <p class="content">{{ study.designStrategy.content }}</p>
           <div class="design-strategy-details">
-            <div class="ui stackable three column grid">
-              <div class="column" *ngFor="let details of study.designStrategy.strategyDetails">
-                <img src="{{ details.imageUrl }}" class="ui image" alt="">
-                <h3 class="title">{{ details.title }}</h3>
-                <p class="content">{{ details.content }}</p>
-              </div>
+            <div class="detail" *ngFor="let details of study.designStrategy.strategyDetails">
+              <h3 class="title">{{ details.title }}</h3>
+              <p class="content">{{ details.content }}</p>
+              <img src="{{ details.imageUrl }}" class="ui image" alt="">
             </div>
           </div>
         </div>
