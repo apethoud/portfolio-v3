@@ -13,6 +13,7 @@
     h1 {
       text-align: center;
       color: $light-teal;
+      font-weight: 700;
     }
 
     .hero {
@@ -60,19 +61,20 @@
         position: relative;
         top: 2vw;
         z-index: 50;
+        display: none;
       }
 
       .text-box {
         padding: 2vw;
         padding-top: 3vw;
-        background-color: darken($white, 5%);
         border-radius: 2vw;
 
         &>.title {
           text-align: center;
-          color: $med-teal;
+          color: $light-teal;
+          font-size: 1.5em;
           font-weight: 700;
-          text-transform: uppercase;
+          // text-transform: uppercase;
         }
 
         &>.content {
@@ -82,6 +84,7 @@
     }
 
     .design-strategy-details {
+      margin: 4vw 0;
 
       .title {
         color: $med-teal;
@@ -93,7 +96,7 @@
       }
 
       img.detail-image {
-        margin-bottom: 8vh;
+        margin-bottom: 4vw;
       }
     }
   }
