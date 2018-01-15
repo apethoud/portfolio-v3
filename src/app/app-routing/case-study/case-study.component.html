@@ -29,7 +29,7 @@
   <section class="design-strategy">
     <div class="ui container">
       <div class="design-strategy-header">
-        <img src="{{ study.designStrategy.icon }}" alt="" class="ui tiny circular centered image">
+        <img src="{{ study.designStrategy.icon }}" alt="" class="ui tiny circular centered image icon">
         <div class="text-box">
           <h2 class="title">{{ study.designStrategy.title }}</h2>
           <p class="content">{{ study.designStrategy.content }}</p>
@@ -37,7 +37,7 @@
             <div class="detail" *ngFor="let details of study.designStrategy.strategyDetails">
               <h3 class="title">{{ details.title }}</h3>
               <p class="content">{{ details.content }}</p>
-              <img src="{{ details.imageUrl }}" class="ui image" alt="">
+              <img src="{{ details.imageUrl }}" class="ui image detail-image" alt="">
             </div>
           </div>
         </div>

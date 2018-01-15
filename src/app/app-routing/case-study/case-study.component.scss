@@ -52,7 +52,6 @@
           color: $med-teal;
           font-weight: 700;
           text-transform: uppercase;
-          letter-spacing: 0.05em;
           font-size: 0.75em;
         }
       }
@@ -63,9 +62,9 @@
 
     .design-strategy-header {
       position: relative;
-      margin: 4vh 0;
+      margin: 4vh 16vh;
 
-      img {
+      img.icon {
         position: relative;
         top: 2vw;
         z-index: 50;
@@ -77,36 +76,32 @@
         background-color: darken($white, 5%);
         border-radius: 2vw;
 
-        .title {
+        &>.title {
           text-align: center;
           color: $med-teal;
           font-weight: 700;
           text-transform: uppercase;
-          letter-spacing: 0.05em;
+        }
+
+        &>.content {
+          font-size: 0.85em;
         }
       }
     }
 
     .design-strategy-details {
 
-      .column {
+      .title {
+        color: $med-teal;
+        font-weight: 700;
+      }
 
-        img {
+      .content {
+        font-size: 0.85em;
+      }
 
-        }
-
-        .title {
-          text-align: center;
-          color: $med-teal;
-          font-weight: 700;
-          text-transform: uppercase;
-          letter-spacing: 0.05em;
-          font-size: 0.75em;
-        }
-
-        .content {
-
-        }
+      img.detail-image {
+        margin-bottom: 8vh;
       }
     }
   }
