@@ -1,13 +1,12 @@
 <section class="nav-background"></section>
 
 <div class="study" *ngIf="study">
-  <section class="case-study-title">
-    <h1>{{ study.title }}</h1>
+  <section class="case-study-header">
+    <div class="ui container">
+      <h1>{{ study.title }}</h1>
+      <div class="hero" [ngStyle]="{ 'background-image': 'url(' + this.study.heroImage + ')'}"></div>
+    </div>
   </section>
-
-  <div class="ui container">
-    <section class="hero" [ngStyle]="{ 'background-image': 'url(' + this.study.heroImage + ')'}"></section>
-  </div>
 
   <section class="featured-items">
     <div class="ui container">

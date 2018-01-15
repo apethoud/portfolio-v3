@@ -7,26 +7,25 @@
 
 .study {
 
-  section.case-study-title {
-    margin-top: 4vh;
+  section.case-study-header {
+    margin: 8vw 0;
 
     h1 {
-      margin: 10vh 0 5vh;
       text-align: center;
       color: $light-teal;
     }
-  }
 
-  section.hero {
-    background-size: cover;
-    height: 80vh;
+    .hero {
+      background-size: cover;
+      height: 80vh;
+    }
   }
 
   section.featured-items {
+    margin: 8vw 0;
 
     .featured-item {
       position: relative;
-      margin: 4vh 0;
 
       img {
         position: relative;
