@@ -1,0 +1,47 @@
+@import '../../global-variables';
+
+section#contact {
+  margin: 8vw 0;
+
+  .contact-form {
+
+    form {
+      width: 75%;
+
+      .item {
+        padding-bottom: 1em;
+
+        label {
+          font-size: 0.8em;
+          display: block;
+          font-family: $headline-font;
+          text-transform: uppercase;
+          color: $med-teal;
+        }
+
+        input, textarea {
+          width: 100%;
+          padding: 0.25em;
+          background-color: $white;
+          border: 2px solid $med-teal;
+          border-radius: 0.15em;
+        }
+      }
+
+      button {
+        font-size: 0.8em;
+        font-family: $headline-font;
+        text-transform: uppercase;
+        background-color: $light-teal;
+        color: $white;
+      }
+    }
+
+    @media only screen and (max-width: 440px) {
+      form {
+        margin: 0 auto;
+      }
+    }
+  }
+}
+

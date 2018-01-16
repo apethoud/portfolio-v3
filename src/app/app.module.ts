@@ -8,6 +8,7 @@ import { CaseStudyComponent } from './app-routing/case-study/case-study.componen
 
 import { CaseStudyService } from './app-routing/case-study.service';
 import { HighlightService } from './app-routing/highlight.service';
+import { ContactFormComponent } from './contact-form/contact-form.component';
 
 @NgModule({
   imports: [
@@ -17,7 +18,8 @@ import { HighlightService } from './app-routing/highlight.service';
   declarations: [
     AppComponent,
     HomeComponent,
-    CaseStudyComponent
+    CaseStudyComponent,
+    ContactFormComponent
   ],
   providers: [ 
     CaseStudyService,
