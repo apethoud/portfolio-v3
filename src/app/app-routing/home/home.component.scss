@@ -49,9 +49,10 @@ section#case-studies {
 
   h2.section-header {
     // font-size: 0.9em;
-    text-transform: uppercase;
     text-align: center;
     margin-bottom: 2vw;
+    color: $light-teal;
+    font-weight: 700;
   }
 
   .case-study {
