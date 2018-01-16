@@ -24,6 +24,16 @@ header {
           fill: $white;
           width: 7vw;
         }
+
+        @media only screen and (max-width: 440px) {
+          svg {
+            width: 24vw;
+          }
+        }
+      }
+
+      &.case-studies, &.about, &.contact {
+        display: none;
       }
     }
   }

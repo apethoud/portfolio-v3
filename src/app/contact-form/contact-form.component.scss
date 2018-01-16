@@ -3,34 +3,45 @@
 section#contact {
   margin: 8vw 0;
 
-  form {
+  .contact-form {
 
-    .item {
-      padding-bottom: 1em;
+    form {
+      width: 75%;
 
-      label {
-        display: block;
+      .item {
+        padding-bottom: 1em;
+
+        label {
+          display: block;
+          font-family: $headline-font;
+          // font-size: 0.75em;
+          text-transform: uppercase;
+          color: $med-teal;
+        }
+
+        input, textarea {
+          width: 100%;
+          padding: 0.25em;
+          background-color: $white;
+          border: 2px solid $med-teal;
+          border-radius: 0.15em;
+        }
+      }
+
+      button {
         font-family: $headline-font;
         // font-size: 0.75em;
         text-transform: uppercase;
-        color: $med-teal;
-      }
-
-      input, textarea {
-        width: 75%;
-        padding: 0.25em;
-        background-color: $white;
-        border: 2px solid $med-teal;
-        border-radius: 0.15em;
+        background-color: $light-teal;
+        color: $white;
       }
     }
 
-    button {
-      font-family: $headline-font;
-      // font-size: 0.75em;
-      text-transform: uppercase;
-      background-color: $light-teal;
-      color: $white;
+    @media only screen and (max-width: 440px) {
+      form {
+        margin: 0 auto;
+      }
     }
   }
 }
+
