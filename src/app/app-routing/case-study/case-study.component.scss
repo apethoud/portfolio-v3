@@ -27,35 +27,53 @@
       background-size: cover;
       height: 80vh;
     }
+
+    @media only screen and (max-width: 440px) {
+      .hero {
+        height: 40vh;
+      }
+    }
   }
 
   section.featured-items {
     margin: 8vw 0;
 
-    .featured-item {
-      position: relative;
+    
+      @media only screen and (max-width: 767px) {
+        .column {
+          padding: 0 0 !important;
+        }
 
-      img {
-        position: relative;
-        top: 2vw;
-        z-index: 50;
-      }
-
-      .text-box {
-        padding: 2vw;
-        padding-top: 3vw;
-        background-color: darken($white, 5%);
-        border-radius: 2vw;
-
-        .title {
-          font-size: 1.1em;
-          text-align: center;
-          color: $med-teal;
-          font-weight: 700;
-          text-transform: uppercase;
+        .featured-item {
+          margin-top: 6vw;
         }
       }
-    }
+
+      .featured-item {
+        position: relative;
+
+        img {
+          position: relative;
+          top: 2vw;
+          z-index: 50;
+        }
+
+        .text-box {
+          padding: 2vw;
+          padding-top: 3vw;
+          background-color: darken($white, 5%);
+          border-radius: 2vw;
+
+          .title {
+            font-size: 1.1em;
+            text-align: center;
+            color: $med-teal;
+            font-weight: 700;
+            text-transform: uppercase;
+          }
+        }
+      }
+    
   }
 
   section.design-strategy {
@@ -93,6 +111,7 @@
     @media only screen and (max-width: 440px) {
       .design-strategy-header {
         margin: 0 auto;
+        margin-top: 15vw;
       }
     }
 
