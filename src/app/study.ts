@@ -4,6 +4,7 @@ export class Study {
     public title: string,
     public description: string,
     public software: any = null,
+    public thumbnailImage: string,
     public heroImage: string,
     public featuredColIndex: any,
     public featuredItems: any,

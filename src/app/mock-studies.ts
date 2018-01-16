@@ -6,6 +6,7 @@ export const STUDIES: Study[] = [
     title: 'Foresight Budgets', 
     description: 'Description of Foresight Budgets', 
     software: ['HTML', 'CSS', 'AngularJS', 'Illustrator'],
+    thumbnailImage: '../../../assets/office-teal-monochrome.png',
     heroImage: '../../../assets/office-teal-monochrome.png',
     featuredColIndex: [
       {
@@ -93,6 +94,7 @@ export const STUDIES: Study[] = [
     title: 'OrdrSlip Kiosk', 
     description: 'Description of OrdrSlip Kiosk', 
     software: ['HTML', 'CSS', 'Angular 2', 'Illustrator'],
+    thumbnailImage: '../../../assets/office-teal-monochrome.png',
     heroImage: '../../../assets/office-teal-monochrome.png',
     featuredColIndex: [
       {
@@ -180,6 +182,7 @@ export const STUDIES: Study[] = [
     title: 'App Skin', 
     description: 'Description of App Skin', 
     software: ['HTML', 'CSS', 'Angular 2'],
+    thumbnailImage: '../../../assets/office-teal-monochrome.png',
     heroImage: '../../../assets/office-teal-monochrome.png',
     featuredColIndex: [
       {
@@ -267,6 +270,7 @@ export const STUDIES: Study[] = [
     title: 'Robot T-Shirt', 
     description: 'Description of Robot T-Shirt', 
     software: ['Illustrator'],
+    thumbnailImage: '../../../assets/office-teal-monochrome.png',
     heroImage: '../../../assets/office-teal-monochrome.png',
     featuredColIndex: [
       {
@@ -354,6 +358,7 @@ export const STUDIES: Study[] = [
     title: 'Foresight Icons', 
     description: 'Description of Foresight Icons', 
     software: ['Illustrator'],
+    thumbnailImage: '../../../assets/office-teal-monochrome.png',
     heroImage: '../../../assets/office-teal-monochrome.png',
     featuredColIndex: [
       {
@@ -441,6 +446,7 @@ export const STUDIES: Study[] = [
     title: 'Robot Fight Club Logo', 
     description: 'Description of Robot Fight Club Logo', 
     software: ['Illustrator'],
+    thumbnailImage: '../../../assets/office-teal-monochrome.png',
     heroImage: '../../../assets/office-teal-monochrome.png',
     featuredColIndex: [
       {
