@@ -5,6 +5,12 @@
   height: 5.5vw;
 }
 
+@media only screen and (max-width: 440px) {
+  .nav-background {
+    height: 14vw;
+  }
+}
+
 .study {
 
   section.case-study-header {
@@ -42,11 +48,11 @@
         border-radius: 2vw;
 
         .title {
+          font-size: 1.1em;
           text-align: center;
           color: $med-teal;
           font-weight: 700;
           text-transform: uppercase;
-          font-size: 0.75em;
         }
       }
     }
@@ -56,7 +62,7 @@
 
     .design-strategy-header {
       position: relative;
-      margin: 4vh 16vh;
+      margin: 4vw 10vw;
 
       img.icon {
         position: relative;
@@ -73,14 +79,20 @@
         &>.title {
           text-align: center;
           color: $light-teal;
-          font-size: 1.5em;
+          // font-size: 1.5em;
           font-weight: 700;
           // text-transform: uppercase;
         }
 
         &>.content {
-          font-size: 0.85em;
+          // font-size: 0.85em;
         }
+      }
+    }
+
+    @media only screen and (max-width: 440px) {
+      .design-strategy-header {
+        margin: 0 auto;
       }
     }
 
@@ -93,7 +105,7 @@
       }
 
       .content {
-        font-size: 0.85em;
+        // font-size: 0.85em;
       }
 
       img.detail-image {
