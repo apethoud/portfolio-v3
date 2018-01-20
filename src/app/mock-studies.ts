@@ -4,7 +4,7 @@ export const STUDIES: Study[] = [
   {
     name: 'foresight-budgets',
     title: 'Foresight Budgets', 
-    description: 'Description of Foresight Budgets', 
+    description: 'A forward-thinking and accurate personal finance app.', 
     software: ['HTML', 'CSS', 'AngularJS', 'Illustrator'],
     thumbnailImage: '../../../assets/office-teal-monochrome.png',
     heroImage: '../../../assets/office-teal-monochrome.png',
