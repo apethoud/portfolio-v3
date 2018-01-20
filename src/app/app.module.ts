@@ -10,10 +10,13 @@ import { CaseStudyService } from './app-routing/case-study.service';
 import { HighlightService } from './app-routing/highlight.service';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 
+import { DragScrollModule } from 'ngx-drag-scroll';
+
 @NgModule({
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    DragScrollModule,
   ],
   declarations: [
     AppComponent,

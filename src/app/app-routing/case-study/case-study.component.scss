@@ -24,13 +24,54 @@
     }
 
     .hero {
-      background-size: cover;
       height: 80vh;
+      width: 74vh;
+      display: flex;
+      margin: 0 auto;
+      position:relative;
+      -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+              box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+      .hero-images {
+
+        img {
+          height: 74vh;
+        }
+      }
     }
 
     @media only screen and (max-width: 440px) {
       .hero {
-        height: 40vh;
+        height: 90vw;
+        width: 84vw;
+
+        .hero-images {
+
+          img {
+            height: 84vw;
+          }
+        }
+      }
+    }
+
+    .buttons {
+      display: flex;
+      
+      .button-wrapper {
+        margin: 0 auto;
+        margin-top: 20px;
+
+        button.ui.button {
+          font-size: 2em;
+          padding: 10px 20px 15px;
+          background-color: $med-teal;
+          color: $white;
+
+          &.right {
+            margin-right: 0;
+          }
+        }
       }
     }
   }

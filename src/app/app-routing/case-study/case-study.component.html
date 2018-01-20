@@ -4,7 +4,17 @@
   <section class="case-study-header">
     <div class="ui container">
       <h1>{{ study.title }}</h1>
-      <div class="hero" [ngStyle]="{ 'background-image': 'url(' + this.study.heroImage + ')'}"></div>
+      <div #hero class="hero" dragScroll>
+        <div class="hero-images" *ngFor="let heroImg of study.heroImages">
+          <img src="{{ heroImg.img }}" alt="">
+        </div>
+      </div>
+      <div class="buttons">
+        <div class="button-wrapper">
+          <button class="ui button left" (click)="moveLeft()">&#60;</button>
+          <button class="ui button right" (click)="moveRight()">&#62;</button>
+        </div>
+      </div>
     </div>
   </section>
 

@@ -1,10 +1,12 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, ViewChild } from '@angular/core';
 
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 
 import { Study } from '../../study';
 import { CaseStudyService }  from '../case-study.service';
+
+import { DragScrollDirective } from 'ngx-drag-scroll';
 
 @Component({
   selector: 'app-case-study',
@@ -13,6 +15,7 @@ import { CaseStudyService }  from '../case-study.service';
 })
 export class CaseStudyComponent implements OnInit {
   @Input() study: Study;
+  @ViewChild('hero', {read: DragScrollDirective}) ds: DragScrollDirective;
 
   constructor(
     private route: ActivatedRoute,
@@ -52,5 +55,13 @@ export class CaseStudyComponent implements OnInit {
 
   isString(itemContent) {
     return typeof itemContent === 'string';
+  }
+  
+  moveLeft() {
+    this.ds.moveLeft();
+  }
+
+  moveRight() {
+    this.ds.moveRight();
   }
 }

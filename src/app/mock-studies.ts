@@ -7,7 +7,9 @@ export const STUDIES: Study[] = [
     description: 'A forward-thinking and accurate personal finance app.', 
     software: ['HTML', 'CSS', 'AngularJS', 'Illustrator'],
     thumbnailImage: '../../../assets/office-teal-monochrome.png',
-    heroImage: '../../../assets/office-teal-monochrome.png',
+    heroImages: [
+      {img: '../../../assets/office-teal-monochrome.png'}
+    ],
     featuredColIndex: [
       {
         column: 1,
@@ -95,7 +97,9 @@ export const STUDIES: Study[] = [
     description: 'Description of OrdrSlip Kiosk', 
     software: ['HTML', 'CSS', 'Angular 2', 'Illustrator'],
     thumbnailImage: '../../../assets/office-teal-monochrome.png',
-    heroImage: '../../../assets/office-teal-monochrome.png',
+    heroImages: [
+      {img: '../../../assets/office-teal-monochrome.png'}
+    ],
     featuredColIndex: [
       {
         column: 1,
@@ -183,7 +187,9 @@ export const STUDIES: Study[] = [
     description: 'Description of App Skin', 
     software: ['HTML', 'CSS', 'Angular 2'],
     thumbnailImage: '../../../assets/office-teal-monochrome.png',
-    heroImage: '../../../assets/office-teal-monochrome.png',
+    heroImages: [
+      {img: '../../../assets/office-teal-monochrome.png'}
+    ],
     featuredColIndex: [
       {
         column: 1,
@@ -271,7 +277,9 @@ export const STUDIES: Study[] = [
     description: 'Description of Robot T-Shirt', 
     software: ['Illustrator'],
     thumbnailImage: '../../../assets/office-teal-monochrome.png',
-    heroImage: '../../../assets/office-teal-monochrome.png',
+    heroImages: [
+      {img: '../../../assets/office-teal-monochrome.png'}
+    ],
     featuredColIndex: [
       {
         column: 1,
@@ -359,7 +367,16 @@ export const STUDIES: Study[] = [
     description: 'Description of Foresight Icons', 
     software: ['Illustrator'],
     thumbnailImage: '../../../assets/office-teal-monochrome.png',
-    heroImage: '../../../assets/office-teal-monochrome.png',
+    heroImages: [
+      {img: '../../../assets/foresight-icons/hero-all-tilted.png'},
+      {img: '../../../assets/foresight-icons/hero-01.png'},
+      {img: '../../../assets/foresight-icons/hero-02.png'},
+      {img: '../../../assets/foresight-icons/hero-03.png'},
+      {img: '../../../assets/foresight-icons/hero-04.png'},
+      {img: '../../../assets/foresight-icons/hero-05.png'},
+      {img: '../../../assets/foresight-icons/hero-06.png'},
+      {img: '../../../assets/foresight-icons/hero-07.png'},
+    ],
     featuredColIndex: [
       {
         column: 1,
@@ -447,7 +464,9 @@ export const STUDIES: Study[] = [
     description: 'Description of Robot Fight Club Logo', 
     software: ['Illustrator'],
     thumbnailImage: '../../../assets/office-teal-monochrome.png',
-    heroImage: '../../../assets/office-teal-monochrome.png',
+    heroImages: [
+      {img: '../../../assets/office-teal-monochrome.png'}
+    ],
     featuredColIndex: [
       {
         column: 1,
