@@ -364,11 +364,11 @@ export const STUDIES: Study[] = [
   {
     name: 'foresight-icons',
     title: 'Foresight Icons', 
-    description: 'Description of Foresight Icons', 
+    description: 'A set of marketing icons for a personal finance app called Foresight Budgets.', 
     software: ['Illustrator'],
     thumbnailImage: '../../../assets/office-teal-monochrome.png',
     heroImages: [
-      {img: '../../../assets/foresight-icons/hero-all-tilted.png'},
+      {img: '../../../assets/foresight-icons/hero-all.png'},
       {img: '../../../assets/foresight-icons/hero-01.png'},
       {img: '../../../assets/foresight-icons/hero-02.png'},
       {img: '../../../assets/foresight-icons/hero-03.png'},
