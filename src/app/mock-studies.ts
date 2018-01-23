@@ -459,7 +459,10 @@ export const STUDIES: Study[] = [
     software: ['Illustrator'],
     thumbnailImage: '../../../assets/office-teal-monochrome.png',
     heroImages: [
-      {img: '../../../assets/office-teal-monochrome.png'}
+      {img: '../../../assets/robot-fight-club/rfc-green-on-black.png'},
+      {img: '../../../assets/robot-fight-club/rfc-green-on-white.png'},
+      {img: '../../../assets/robot-fight-club/rfc-light-on-dark.png'},
+      {img: '../../../assets/robot-fight-club/rfc-dark-on-light.png'},
     ],
     featuredColIndex: [
       {
