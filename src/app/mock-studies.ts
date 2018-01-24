@@ -278,7 +278,16 @@ export const STUDIES: Study[] = [
     software: ['Illustrator'],
     thumbnailImage: '../../../assets/office-teal-monochrome.png',
     heroImages: [
-      {img: '../../../assets/office-teal-monochrome.png'}
+      {img: '../../../assets/robot-t-shirt/robots-all.png'},
+      {img: '../../../assets/robot-t-shirt/robot-01.png'},
+      {img: '../../../assets/robot-t-shirt/robot-02.png'},
+      {img: '../../../assets/robot-t-shirt/robot-03.png'},
+      {img: '../../../assets/robot-t-shirt/robot-04.png'},
+      {img: '../../../assets/robot-t-shirt/robot-05.png'},
+      {img: '../../../assets/robot-t-shirt/robot-06.png'},
+      {img: '../../../assets/robot-t-shirt/robot-07.png'},
+      {img: '../../../assets/robot-t-shirt/robot-08.png'},
+      {img: '../../../assets/robot-t-shirt/robot-09.png'},
     ],
     featuredColIndex: [
       {
