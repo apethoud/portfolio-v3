@@ -13,15 +13,15 @@ export const STUDIES: Study[] = [
     featuredColIndex: [
       {
         column: 1,
-        featureOrder: [1, 2, 3]
+        featureOrder: [1, 2]
       },
       {
         column: 2,
-        featureOrder: [4, 5]
+        featureOrder: [3, 4]
       },
       {
         column: 3,
-        featureOrder: [6, 7]
+        featureOrder: [5, 6]
       }
     ],
     featuredItems: [
@@ -52,20 +52,14 @@ export const STUDIES: Study[] = [
       {
         id: 5,
         icon: "http://via.placeholder.com/80x80",
-        title: "Project Outcome",
-        content: "Created a functional and beautifully-designed app."
+        title: "Most Proud Of",
+        content: "I'm most proud of the progress my team and I were able to make in such a short time."
       },
       {
         id: 6,
         icon: "http://via.placeholder.com/80x80",
-        title: "Most Proud Of",
-        content: "The progress my team and I were able to make in such a short time."
-      },
-      {
-        id: 7,
-        icon: "http://via.placeholder.com/80x80",
         title: "Greatest Challenge",
-        content: "Interfacing with a third-party API for importing bank transactions securely."
+        content: "Our greatest challenge was interfacing with a third-party API for importing bank transactions securely."
       },
     ],
     designStrategy: {
