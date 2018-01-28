@@ -366,22 +366,27 @@ export const STUDIES: Study[] = [
     designStrategy: {
       icon: "http://via.placeholder.com/80x80",
       title: "Design Strategy",
-      content: "Intro to design strategy.",
+      content: "This was a pure passion project. I love robots (especially vintage robots), so this project gave me a way to have fun while helping people in need.",
       strategyDetails: [
         {
           title: "Detail Title",
           imageUrl: "../../../assets/office-teal-monochrome.png",
-          content: "details here"
+          content: "I started the design process by doing extensive research on vintage robot design. I made dozens of sketches that integrated popular features from actual vintage robots."
         },
         {
           title: "Detail Title",
           imageUrl: "../../../assets/office-teal-monochrome.png",
-          content: "details here"
+          content: "I settled on nine robot concepts. Then I began digitally rendering them, making adjustments along the way as necessary."
         },
         {
           title: "Detail Title",
           imageUrl: "../../../assets/office-teal-monochrome.png",
-          content: "details here"
+          content: "Finally, I chose to simply print them in white on colored t-shirts. This gave the visual contrast that I wanted, while also providing potential customers with several color options to choose from."
+        },
+        {
+          title: "Detail Title",
+          imageUrl: "../../../assets/office-teal-monochrome.png",
+          content: "The design was a hit! We sold 55 t-shirts and raised $440 from sales alone. The project gave many people in my work community the opportunity to not only get a fun t-shirt, but also support a cause important to them and our company."
         },
       ]
     } 
