@@ -122,7 +122,10 @@ export const STUDIES: Study[] = [
     software: ['HTML', 'CSS', 'Angular 2', 'Illustrator'],
     thumbnailImage: '../../../assets/office-teal-monochrome.png',
     heroImages: [
-      {img: '../../../assets/office-teal-monochrome.png'}
+      {img: '../../../assets/ordrslip-kiosk/ordrslip-kiosk-bg-01.png'},
+      {img: '../../../assets/ordrslip-kiosk/ordrslip-kiosk-bg-02.png'},
+      {img: '../../../assets/ordrslip-kiosk/ordrslip-kiosk-bg-03.png'},
+      {img: '../../../assets/ordrslip-kiosk/ordrslip-kiosk-bg-04.png'},
     ],
     featuredColIndex: [
       {
