@@ -290,7 +290,7 @@ export const STUDIES: Study[] = [
   {
     name: 'robot-t-shirt',
     title: 'Robot T-Shirt', 
-    description: 'Description of Robot T-Shirt', 
+    description: 'A robot-themed t-shirt design.', 
     software: ['Illustrator'],
     thumbnailImage: '../../../assets/office-teal-monochrome.png',
     heroImages: [
@@ -308,11 +308,11 @@ export const STUDIES: Study[] = [
     featuredColIndex: [
       {
         column: 1,
-        featureOrder: [1, 2, 3]
+        featureOrder: [1, 2]
       },
       {
         column: 2,
-        featureOrder: [4, 5]
+        featureOrder: [4, 5, 3]
       },
       {
         column: 3,
@@ -324,43 +324,43 @@ export const STUDIES: Study[] = [
         id: 1,
         icon: "http://via.placeholder.com/80x80",
         title: "Concept",
-        content: "A personal finance app designed to be forward-thinking and accurate."
+        content: "Create a robot-themed t-shirt design to sell as a fundraiser for a local student robotics class."
       },
       {
         id: 2,
         icon: "http://via.placeholder.com/80x80",
         title: "The Story Behind It",
-        content: "I was personally fed up with using poorly-designed finance management software for my everyday finances, so I recruited a team of developers to help me design a better one for a local coding competition."
+        content: "I heard about a local student robotics class during a presentation at work. During the presentation, they mentioned that there were no scholarships available, despite their desire to reach out to low-income kids. I figured that I could do something to raise money to scholarship a few students, so I set about designing a t-shirt to sell."
       },
       {
         id: 3,
         icon: "http://via.placeholder.com/80x80",
         title: "My Role",
-        content: ['Concept Creator', 'Development Team Leader', 'Lead UX/UI Designer', 'Icon Designer']
+        content: ['Concept Creator', 'Illustrator', 'Marketer']
       },
       {
         id: 4,
         icon: "http://via.placeholder.com/80x80",
         title: "Project Goal",
-        content: "Gain experience designing an app from scratch."
+        content: "Raise $450 to fully scholarship a student, or to reduce the cost for several students."
       },
       {
         id: 5,
         icon: "http://via.placeholder.com/80x80",
         title: "Project Outcome",
-        content: "Created a functional and beautifully-designed app."
+        content: "We sold 55 t-shirts, which raised $440. Then a helpful benefactor decided to donate the additional $10 dollars to help us reach our goal!"
       },
       {
         id: 6,
         icon: "http://via.placeholder.com/80x80",
         title: "Most Proud Of",
-        content: "The progress my team and I were able to make in such a short time."
+        content: "I'm so proud of my community for coming together to help scholarship students in need!"
       },
       {
         id: 7,
         icon: "http://via.placeholder.com/80x80",
-        title: "Greatest Challenge",
-        content: "Interfacing with a third-party API for importing bank transactions securely."
+        title: "Fun Fact",
+        content: "The robot in the middle of the bottom row has the antenna from my roof as a headpiece."
       },
     ],
     designStrategy: {
