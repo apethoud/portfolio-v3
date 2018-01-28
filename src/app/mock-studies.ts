@@ -485,7 +485,7 @@ export const STUDIES: Study[] = [
   {
     name: 'robot-fight-club-logo',
     title: 'Robot Fight Club Logo', 
-    description: 'Description of Robot Fight Club Logo', 
+    description: 'A logo for a local robot fighting competition.', 
     software: ['Illustrator'],
     thumbnailImage: '../../../assets/office-teal-monochrome.png',
     heroImages: [
@@ -497,15 +497,15 @@ export const STUDIES: Study[] = [
     featuredColIndex: [
       {
         column: 1,
-        featureOrder: [1, 2, 3]
+        featureOrder: [1, 2]
       },
       {
         column: 2,
-        featureOrder: [4, 5]
+        featureOrder: [3, 4]
       },
       {
         column: 3,
-        featureOrder: [6, 7]
+        featureOrder: [5]
       }
     ],
     featuredItems: [
@@ -513,64 +513,62 @@ export const STUDIES: Study[] = [
         id: 1,
         icon: "http://via.placeholder.com/80x80",
         title: "Concept",
-        content: "A personal finance app designed to be forward-thinking and accurate."
+        content: "Create a logo for a robot fighting competition that conveyed destruction and mayhem."
       },
       {
         id: 2,
         icon: "http://via.placeholder.com/80x80",
         title: "The Story Behind It",
-        content: "I was personally fed up with using poorly-designed finance management software for my everyday finances, so I recruited a team of developers to help me design a better one for a local coding competition."
+        content: "An acquaintance of mine was working to start a robot fighting competition locally to have fun, advance the sport, and involve youth who may never have considered getting into robotics or technology."
       },
       {
         id: 3,
         icon: "http://via.placeholder.com/80x80",
         title: "My Role",
-        content: ['Concept Creator', 'Development Team Leader', 'Lead UX/UI Designer', 'Icon Designer']
+        content: ['Graphic Designer']
       },
       {
         id: 4,
         icon: "http://via.placeholder.com/80x80",
-        title: "Project Goal",
-        content: "Gain experience designing an app from scratch."
+        title: "Most Proud Of",
+        content: "I was very happy with the number of solid, effective concepts that I was able to come up with and offer the client."
       },
       {
         id: 5,
         icon: "http://via.placeholder.com/80x80",
-        title: "Project Outcome",
-        content: "Created a functional and beautifully-designed app."
-      },
-      {
-        id: 6,
-        icon: "http://via.placeholder.com/80x80",
-        title: "Most Proud Of",
-        content: "The progress my team and I were able to make in such a short time."
-      },
-      {
-        id: 7,
-        icon: "http://via.placeholder.com/80x80",
         title: "Greatest Challenge",
-        content: "Interfacing with a third-party API for importing bank transactions securely."
+        content: "I needed to convey the idea of destruction in a way that was also readable at both small and large sizes. This proved to be an interesting challenge."
       },
     ],
     designStrategy: {
       icon: "http://via.placeholder.com/80x80",
       title: "Design Strategy",
-      content: "Intro to design strategy.",
+      content: "I knew I was going to enjoy this project. Robot battles, destruction, mayhem... What's not to like?",
       strategyDetails: [
         {
-          title: "Detail Title",
+          title: "The Study of War",
           imageUrl: "../../../assets/office-teal-monochrome.png",
-          content: "details here"
+          content: "I started by doing extensive research into the world of robot fighting. As I watched videos of both popular TV shows and small, locally-organized events, I sketched out bits and pieces of the robots I saw: their weapons, drive systems, and defenses."
         },
         {
-          title: "Detail Title",
+          title: "Common Elements",
           imageUrl: "../../../assets/office-teal-monochrome.png",
-          content: "details here"
+          content: "From there, I took careful note of any repetition of shapes that I noticed. I found that there were several shapes and forms that were very common among robots involved in fighting competitions. The most prevalent by far was spinning circular blades."
         },
         {
-          title: "Detail Title",
+          title: "Spinners are Winners",
           imageUrl: "../../../assets/office-teal-monochrome.png",
-          content: "details here"
+          content: "I chose to base several of my logo concepts off of a common and effective robot design: a spinning robot equipped with blades around its exterior."
+        },
+        {
+          title: "Refining the Concept",
+          imageUrl: "../../../assets/office-teal-monochrome.png",
+          content: "After showing six different concepts to the client, they chose the one they liked best and I got to work refining that concept. I experimented with several variations on the form and worked to create a sense of unity with the types of lines and shapes that I used. The sharp points of the blade tips became shapes that I carried through the letter forms as well. I oriented the icon in such a way that it seemed to point to the word it accompanied. Lastly, I chose to place the icon very close to the word to further convey the idea of danger. It looks as if it is about to cut right through it!"
+        },
+        {
+          title: "The Final Product",
+          imageUrl: "../../../assets/office-teal-monochrome.png",
+          content: "The final product is cohesive in its shape and form. I chose a particular shade of green for the logo that conveys energy, mystery, and a science fiction vibe. It also causes the logo to stand out from other local groups that do robotics, both for sport and more traditional purposes. Many of those used blues (by far the most common) and reds, so green was a good, distinct choice."
         },
       ]
     } 
