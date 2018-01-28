@@ -205,9 +205,9 @@ export const STUDIES: Study[] = [
     }
   },
   {
-    name: 'app-skin',
-    title: 'App Skin', 
-    description: 'Description of App Skin', 
+    name: 'tpa-redesign',
+    title: 'TPA Redesign', 
+    description: 'A new look for a healthcare Third-Party Administrator.', 
     software: ['HTML', 'CSS', 'Angular 2'],
     thumbnailImage: '../../../assets/office-teal-monochrome.png',
     heroImages: [
@@ -216,80 +216,73 @@ export const STUDIES: Study[] = [
     featuredColIndex: [
       {
         column: 1,
-        featureOrder: [1, 2, 3]
+        featureOrder: [1, 2]
       },
       {
         column: 2,
-        featureOrder: [4, 5]
+        featureOrder: [3, 4]
       },
       {
         column: 3,
-        featureOrder: [6, 7]
+        featureOrder: [5]
       }
     ],
     featuredItems: [
       {
         id: 1,
         icon: "http://via.placeholder.com/80x80",
-        title: "Concept",
-        content: "A personal finance app designed to be forward-thinking and accurate."
+        title: "Project Goal",
+        content: "Provide a more visually-pleasing interface for the application."
       },
       {
         id: 2,
         icon: "http://via.placeholder.com/80x80",
-        title: "The Story Behind It",
-        content: "I was personally fed up with using poorly-designed finance management software for my everyday finances, so I recruited a team of developers to help me design a better one for a local coding competition."
+        title: "My Role",
+        content: "Redesign an on-the-market application according to a provided visual specification."
       },
       {
         id: 3,
         icon: "http://via.placeholder.com/80x80",
-        title: "My Role",
-        content: ['Concept Creator', 'Development Team Leader', 'Lead UX/UI Designer', 'Icon Designer']
+        title: "A Narrow Focus",
+        content: "Being asked to implement someone else's visual design was a great experience. As a designer myself, it gave me the freedom to not think about the design decisions of the app as I built it."
       },
       {
         id: 4,
         icon: "http://via.placeholder.com/80x80",
-        title: "Project Goal",
-        content: "Gain experience designing an app from scratch."
+        title: "Most Proud Of",
+        content: "I am proud of how much attention to detail I applied to the design so that it matched the visual specification. As a designer myself, I know how frustrating it can be to design something, and then see it built without the same level of detail."
       },
       {
         id: 5,
         icon: "http://via.placeholder.com/80x80",
-        title: "Project Outcome",
-        content: "Created a functional and beautifully-designed app."
-      },
-      {
-        id: 6,
-        icon: "http://via.placeholder.com/80x80",
-        title: "Most Proud Of",
-        content: "The progress my team and I were able to make in such a short time."
-      },
-      {
-        id: 7,
-        icon: "http://via.placeholder.com/80x80",
         title: "Greatest Challenge",
-        content: "Interfacing with a third-party API for importing bank transactions securely."
+        content: "The second navigation pane was difficult to integrate. It seemed like I was building it according to the software's requirements, but it just wasn't working. After several days of wrestling with it, I finally got it working!"
       },
     ],
     designStrategy: {
       icon: "http://via.placeholder.com/80x80",
       title: "Design Strategy",
-      content: "Intro to design strategy.",
+      content: "For this project, I was provided the application's code and the visual mockup to match. From there, I got to work coding.",
       strategyDetails: [
         {
-          title: "Detail Title",
+          title: "A Lot to Work With",
           imageUrl: "../../../assets/office-teal-monochrome.png",
-          content: "details here"
+          content: "The size and scope of this app was bigger than any I had previously worked on. I began by looking through all the code to become familiar with how it was built."
         },
         {
-          title: "Detail Title",
+          title: "Divide and Conquer",
           imageUrl: "../../../assets/office-teal-monochrome.png",
-          content: "details here"
+          content: "I then broke the project up into several chunks and prioritized the top-level features first. That way, I could build out smaller components without running into design issues."
         },
         {
-          title: "Detail Title",
+          title: "Regular Communication",
           imageUrl: "../../../assets/office-teal-monochrome.png",
-          content: "details here"
+          content: "After I finished each major feature, I informed my supervisor of my progress and any issues that arose that might affect the development schedule."
+        },
+        {
+          title: "The Final Result",
+          imageUrl: "../../../assets/office-teal-monochrome.png",
+          content: "Eventually I had a completed, redesigned version of the application. From there, I tested it to resolve any bugs in the user flow. Then I sent the final project. I'm very proud of how it turned out. It matched the visual specification and would provide a better user experience to our clients."
         },
       ]
     }
