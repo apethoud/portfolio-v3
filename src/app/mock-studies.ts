@@ -426,13 +426,13 @@ export const STUDIES: Study[] = [
         id: 1,
         icon: "http://via.placeholder.com/80x80",
         title: "Project Goal",
-        content: "Create a set of icons to convey our unique app features in a fun and engaging way."
+        content: "Create a set of icons to convey the unique features of our personal finance app in a fun and engaging way."
       },
       {
         id: 2,
         icon: "http://via.placeholder.com/80x80",
         title: "My Role",
-        content: "Responsible for entire design process from initial concepting through final product."
+        content: "I was responsible for the entire design process from initial concepting through final product."
       },
       {
         id: 3,
@@ -462,22 +462,22 @@ export const STUDIES: Study[] = [
     designStrategy: {
       icon: "http://via.placeholder.com/80x80",
       title: "Design Strategy",
-      content: "Intro to design strategy.",
+      content: "Starting out, I knew exactly what made our app distinct from its closest competitors. Now it was just a matter of conveying those concepts visually.",
       strategyDetails: [
         {
-          title: "Detail Title",
+          title: "Initial Concepting",
           imageUrl: "../../../assets/office-teal-monochrome.png",
-          content: "details here"
+          content: "I started with a list of our most unique and important features. Then I started sketching how to best convey those concepts with visual elements."
         },
         {
-          title: "Detail Title",
+          title: "Unifying the Set",
           imageUrl: "../../../assets/office-teal-monochrome.png",
-          content: "details here"
+          content: "After working through several ideas, I settled on seven concepts and began digitally rendering them. I decided to use only one line width throughout all the icons in order to create a sense of unity between them. In addition, I strategically used dashed lines to emphasize certain details in many of the icons."
         },
         {
-          title: "Detail Title",
+          title: "Unifying Our Brand Message",
           imageUrl: "../../../assets/office-teal-monochrome.png",
-          content: "details here"
+          content: "I chose to use purple for all the icons in order to emphasize our brand identity. These icons were to be used in all our marketing materials, which meant that they would always be in close proximity to our logo. Using the color purple both unified the icons as a set, and unified our marketing materials visually."
         },
       ]
     } 
