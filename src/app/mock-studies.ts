@@ -174,22 +174,32 @@ export const STUDIES: Study[] = [
     designStrategy: {
       icon: "http://via.placeholder.com/80x80",
       title: "Design Strategy",
-      content: "Intro to design strategy.",
+      content: "I had spent a lot of time working on and fixing bugs in the currently-implemented kiosk. When given the chance to lead the project redesign, I decided to not just build it in a more scalable way, but also in a more user-friendly way.",
       strategyDetails: [
         {
-          title: "Detail Title",
+          title: "Rethinking the Design",
           imageUrl: "../../../assets/office-teal-monochrome.png",
-          content: "details here"
+          content: "My teammate and I got a pad of sticky notes and wrote out the name of each page, feature, icon, and button in the current kiosk. We identified pain points brought up by our clients and developers, and began brainstorming how we could solve those user experience problems by changing the interface."
         },
         {
-          title: "Detail Title",
+          title: "A New Direction",
           imageUrl: "../../../assets/office-teal-monochrome.png",
-          content: "details here"
+          content: "After going through each page of the app and re-evaluating the placement of all their components, we came up with a visual structure that would better serve our clients."
         },
         {
-          title: "Detail Title",
+          title: "A New, User-Friendly Look",
           imageUrl: "../../../assets/office-teal-monochrome.png",
-          content: "details here"
+          content: "With the improved structure in-hand, I designed a new visual style for the application. I chose to prioritize readability and intuitiveness in order to make the app easier to use. Specifically, this meant choosing a new color palette to improve readability and rethinking the look of many icons and buttons to remove ambiguity. We also chose to move buttons to where we figured our clients would look for them."
+        },
+        {
+          title: "The Development Process",
+          imageUrl: "../../../assets/office-teal-monochrome.png",
+          content: "After we knew what the app needed to look like, we began building it from scratch with a more modern framework. My teammate and I met regularly to assess our progress and decide how to divide up our responsibilities. We worked through difficulties and made sure to keep the development process focused and on track for our deadline."
+        },
+        {
+          title: "The Outcome",
+          imageUrl: "../../../assets/office-teal-monochrome.png",
+          content: "After several weeks, we had created a brand-new app that was in parity with its previous counterpart. From this point, we began gearing up for a second phase of the project: to integrate a whole new set of essential features to serve the expanded scope of the project."
         },
       ]
     }
