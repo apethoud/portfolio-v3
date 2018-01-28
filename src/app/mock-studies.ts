@@ -113,7 +113,7 @@ export const STUDIES: Study[] = [
   {
     name: 'ordrslip-kiosk',
     title: 'OrdrSlip Kiosk', 
-    description: 'Description of OrdrSlip Kiosk', 
+    description: 'A modern in-store kiosk used by restaurant employees to process incoming orders from their mobile app.', 
     software: ['HTML', 'CSS', 'Angular 2', 'Illustrator'],
     thumbnailImage: '../../../assets/office-teal-monochrome.png',
     heroImages: [
@@ -122,15 +122,15 @@ export const STUDIES: Study[] = [
     featuredColIndex: [
       {
         column: 1,
-        featureOrder: [1, 2, 3]
+        featureOrder: [1, 2]
       },
       {
         column: 2,
-        featureOrder: [4, 5]
+        featureOrder: [3, 4]
       },
       {
         column: 3,
-        featureOrder: [6, 7]
+        featureOrder: [5, 6]
       }
     ],
     featuredItems: [
@@ -138,43 +138,37 @@ export const STUDIES: Study[] = [
         id: 1,
         icon: "http://via.placeholder.com/80x80",
         title: "Concept",
-        content: "A personal finance app designed to be forward-thinking and accurate."
+        content: "Create an easy-to-use interface that shows and helps process customer orders in real-time as they're placed by customers."
       },
       {
         id: 2,
         icon: "http://via.placeholder.com/80x80",
         title: "The Story Behind It",
-        content: "I was personally fed up with using poorly-designed finance management software for my everyday finances, so I recruited a team of developers to help me design a better one for a local coding competition."
+        content: "A current in-store kiosk was already in use at the time, but it was not easily scalable. Many new features needed to be integrated, which necessitated a complete re-write with a modern, scalable approach."
       },
       {
         id: 3,
         icon: "http://via.placeholder.com/80x80",
         title: "My Role",
-        content: ['Concept Creator', 'Development Team Leader', 'Lead UX/UI Designer', 'Icon Designer']
+        content: ['Development Team Leader', 'Lead UX/UI Designer']
       },
       {
         id: 4,
         icon: "http://via.placeholder.com/80x80",
-        title: "Project Goal",
-        content: "Gain experience designing an app from scratch."
+        title: "A New Approach",
+        content: ['Improved the user experience', 'Built in a modern framework', 'Designed for easy scalability']
       },
       {
         id: 5,
         icon: "http://via.placeholder.com/80x80",
-        title: "Project Outcome",
-        content: "Created a functional and beautifully-designed app."
+        title: "Most Proud Of",
+        content: "My teammate did a fantastic job building several essential components of the app. As I had never worked with her before this project, I was very impressed with her work."
       },
       {
         id: 6,
         icon: "http://via.placeholder.com/80x80",
-        title: "Most Proud Of",
-        content: "The progress my team and I were able to make in such a short time."
-      },
-      {
-        id: 7,
-        icon: "http://via.placeholder.com/80x80",
         title: "Greatest Challenge",
-        content: "Interfacing with a third-party API for importing bank transactions securely."
+        content: "Integrating two color themes for the app (which the user could toggle between) proved difficult, but we were able to implement it successfully in the end."
       },
     ],
     designStrategy: {
