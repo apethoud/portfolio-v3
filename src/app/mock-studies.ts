@@ -8,7 +8,12 @@ export const STUDIES: Study[] = [
     software: ['HTML', 'CSS', 'AngularJS', 'Illustrator'],
     thumbnailImage: '../../../assets/office-teal-monochrome.png',
     heroImages: [
-      {img: '../../../assets/office-teal-monochrome.png'}
+      {img: '../../../assets/foresight-budgets/foresight-ui-bg-01.png'},
+      {img: '../../../assets/foresight-budgets/foresight-ui-bg-02.png'},
+      {img: '../../../assets/foresight-budgets/foresight-ui-bg-03.png'},
+      {img: '../../../assets/foresight-budgets/foresight-ui-bg-04.png'},
+      {img: '../../../assets/foresight-budgets/foresight-ui-bg-05.png'},
+      {img: '../../../assets/foresight-budgets/foresight-ui-bg-06.png'},
     ],
     featuredColIndex: [
       {
