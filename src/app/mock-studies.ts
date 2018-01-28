@@ -369,22 +369,22 @@ export const STUDIES: Study[] = [
       content: "This was a pure passion project. I love robots (especially vintage robots), so this project gave me a way to have fun while helping people in need.",
       strategyDetails: [
         {
-          title: "Detail Title",
+          title: "Robot Research",
           imageUrl: "../../../assets/office-teal-monochrome.png",
           content: "I started the design process by doing extensive research on vintage robot design. I made dozens of sketches that integrated popular features from actual vintage robots."
         },
         {
-          title: "Detail Title",
+          title: "One Cohesive Set",
           imageUrl: "../../../assets/office-teal-monochrome.png",
-          content: "I settled on nine robot concepts. Then I began digitally rendering them, making adjustments along the way as necessary."
+          content: "I settled on nine robot concepts, then began digitally rendering them. In order to make the nine designs cohesive as a set, I decided to use only two line widths throughout all the designs: one for main structural features and another for accents and small details. I also decided to reuse certain circle sizes over several robots, which further created unity between them."
         },
         {
-          title: "Detail Title",
+          title: "Color Options",
           imageUrl: "../../../assets/office-teal-monochrome.png",
           content: "Finally, I chose to simply print them in white on colored t-shirts. This gave the visual contrast that I wanted, while also providing potential customers with several color options to choose from."
         },
         {
-          title: "Detail Title",
+          title: "The Outcome",
           imageUrl: "../../../assets/office-teal-monochrome.png",
           content: "The design was a hit! We sold 55 t-shirts and raised $440 from sales alone. The project gave many people in my work community the opportunity to not only get a fun t-shirt, but also support a cause important to them and our company."
         },
