@@ -408,7 +408,7 @@ export const STUDIES: Study[] = [
     title: 'Foresight Icons', 
     description: 'A set of marketing icons for a personal finance app called Foresight Budgets.', 
     software: ['Illustrator'],
-    thumbnailImage: '../../../assets/office-teal-monochrome.png',
+    thumbnailImage: '../../../assets/foresight-icons/thumbnail.png',
     heroImages: [
       {img: '../../../assets/foresight-icons/hero-all.png'},
       {img: '../../../assets/foresight-icons/hero-01.png'},
@@ -499,7 +499,7 @@ export const STUDIES: Study[] = [
     title: 'Robot Fight Club Logo', 
     description: 'A logo for a local robot fighting competition.', 
     software: ['Illustrator'],
-    thumbnailImage: '../../../assets/office-teal-monochrome.png',
+    thumbnailImage: '../../../assets/robot-fight-club/thumbnail.png',
     heroImages: [
       {img: '../../../assets/robot-fight-club/rfc-green-on-black.png'},
       {img: '../../../assets/robot-fight-club/rfc-green-on-white.png'},
