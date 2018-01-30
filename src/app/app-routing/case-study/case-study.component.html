@@ -48,7 +48,7 @@
             <div class="detail" *ngFor="let details of study.designStrategy.strategyDetails">
               <h3 class="title">{{ details.title }}</h3>
               <p class="content">{{ details.content }}</p>
-              <img src="{{ details.imageUrl }}" class="ui image detail-image" alt="">
+              <img src="{{ details.imageUrl }}" class="ui image detail-image" alt="" *ngIf="details.imageUrl">
             </div>
           </div>
         </div>

@@ -74,42 +74,41 @@ export const STUDIES: Study[] = [
       strategyDetails: [
         {
           title: "The Project's Scope",
-          imageUrl: "../../../assets/office-teal-monochrome.png",
+          imageUrl: "../../../assets/foresight-budgets/design-strategy-01.png",
           content: "It seemed best to start the project by writing down everything I liked and disliked about other personal finance apps. Then I took note of how many personal finance apps included those good and bad features. I had several ideas on how to improve on those negative experiences, so I wrote those down as well. This process helped me decide on the project's scope (we only had 59 days to code it all) and also decide how our app would be distinct and uniquely useful among the competitors currently on the market."
         },
         {
           title: "A Visual Concept",
-          imageUrl: "../../../assets/office-teal-monochrome.png",
+          imageUrl: "../../../assets/foresight-budgets/design-strategy-02.png",
           content: "After deciding on the project scope, I began sketching mockups of what the app could look like. Those sketches turned into final concepts, and those final concepts turned into high-fidelity visual mockups that guided our design process."
         },
         {
           title: "Our Development Strategy",
-          imageUrl: "../../../assets/office-teal-monochrome.png",
+          imageUrl: "../../../assets/foresight-budgets/design-strategy-03.png",
           content: "I brought all my ideas and designs to my team so we could figure out how to go about building the app. Our team consisted entirely of junior developers (myself included) who all had different aspects of web development that they were especially good at. Due to the time constraints of the project, we chose to divide up the work in a way that played to each of our strengths, while still giving us opportunities to grow our skills."
         },
         {
           title: "It Takes a Village",
-          imageUrl: "../../../assets/office-teal-monochrome.png",
+          imageUrl: "../../../assets/foresight-budgets/design-strategy-04.png",
           content: "I chose to take on the roles of team leader, visual designer, and UX/UI developer. Two of my teammates joined me in building out the visual interface of the app. Two others worked mostly on integrating the behind-the-scenes functionality and securely connecting customer bank records to the app."
         },
         {
           title: "Noses to the Grindstone",
-          imageUrl: "../../../assets/office-teal-monochrome.png",
+          imageUrl: "../../../assets/foresight-budgets/design-strategy-05.png",
           content: "We met weekly as a team to assess how our week's goals had gone, work through any issues, and plan for the next week. Along the way, we made necessary adjustments to the scope of the project to keep us on track and focused on the goal."
         },
         {
           title: "The Final Stretch",
-          imageUrl: "../../../assets/office-teal-monochrome.png",
+          imageUrl: "../../../assets/foresight-budgets/design-strategy-06.png",
           content: "A week before our deadline, we had a working app that looked great, functioned well, and demonstrated our concept effectively. This left us time to thoroughly test the app and fix any bugs that we found. There were a few features that we were unable to integrate by the deadline, but due to our planning, all of the essential features of the app were functional."
         },
         {
           title: "Competition Day",
-          imageUrl: "../../../assets/office-teal-monochrome.png",
+          imageUrl: "../../../assets/foresight-budgets/design-strategy-08.png",
           content: "For the actual competition, we designed and built a trade show booth to show off our concept and give expo attendees an opportunity to demo our app. I designed a series of marketing icons to help convey our concept and integrated those into the booth design."
         },
         {
           title: "The Outcome",
-          imageUrl: "../../../assets/office-teal-monochrome.png",
           content: "While we did not win the competition, we were very proud of what we had built and felt that we really put our best foot forward in the app's design, implementation, and concept pitch to the judges. We'd definitely love to compete again in the future!"
         },
       ]
