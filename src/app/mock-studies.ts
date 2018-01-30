@@ -219,7 +219,11 @@ export const STUDIES: Study[] = [
     software: ['HTML', 'CSS', 'Angular 2'],
     thumbnailImage: '../../../assets/office-teal-monochrome.png',
     heroImages: [
-      {img: '../../../assets/office-teal-monochrome.png'}
+      {img: '../../../assets/tpa-redesign/tpa-redesign-01.png'},
+      {img: '../../../assets/tpa-redesign/tpa-redesign-02.png'},
+      {img: '../../../assets/tpa-redesign/tpa-redesign-03.png'},
+      {img: '../../../assets/tpa-redesign/tpa-redesign-04.png'},
+      {img: '../../../assets/tpa-redesign/tpa-redesign-05.png'},
     ],
     featuredColIndex: [
       {
