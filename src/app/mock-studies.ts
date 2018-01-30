@@ -304,7 +304,7 @@ export const STUDIES: Study[] = [
     title: 'Robot T-Shirt', 
     description: 'A robot-themed t-shirt design.', 
     software: ['Illustrator'],
-    thumbnailImage: '../../../assets/office-teal-monochrome.png',
+    thumbnailImage: '../../../assets/robot-t-shirt/thumbnail.png',
     heroImages: [
       {img: '../../../assets/robot-t-shirt/robots-all.png'},
       {img: '../../../assets/robot-t-shirt/robot-01.png'},
