@@ -6,7 +6,7 @@ export const STUDIES: Study[] = [
     title: 'Foresight Budgets', 
     description: 'A forward-thinking and accurate personal finance app.', 
     software: ['HTML', 'CSS', 'AngularJS', 'Illustrator'],
-    thumbnailImage: '../../../assets/office-teal-monochrome.png',
+    thumbnailImage: '../../../assets/foresight-budgets/thumbnail.png',
     heroImages: [
       {img: '../../../assets/foresight-budgets/foresight-ui-bg-01.png'},
       {img: '../../../assets/foresight-budgets/foresight-ui-bg-02.png'},
@@ -120,7 +120,7 @@ export const STUDIES: Study[] = [
     title: 'OrdrSlip Kiosk', 
     description: 'A modern in-store kiosk used by restaurant employees to process incoming orders from their mobile app.', 
     software: ['HTML', 'CSS', 'Angular 2', 'Illustrator'],
-    thumbnailImage: '../../../assets/office-teal-monochrome.png',
+    thumbnailImage: '../../../assets/ordrslip-kiosk/thumbnail.png',
     heroImages: [
       {img: '../../../assets/ordrslip-kiosk/ordrslip-kiosk-bg-01.png'},
       {img: '../../../assets/ordrslip-kiosk/ordrslip-kiosk-bg-02.png'},
@@ -217,7 +217,7 @@ export const STUDIES: Study[] = [
     title: 'TPA Redesign', 
     description: 'A new look for a healthcare Third-Party Administrator.', 
     software: ['HTML', 'CSS', 'Angular 2'],
-    thumbnailImage: '../../../assets/office-teal-monochrome.png',
+    thumbnailImage: '../../../assets/tpa-redesign/thumbnail.png',
     heroImages: [
       {img: '../../../assets/tpa-redesign/tpa-redesign-01.png'},
       {img: '../../../assets/tpa-redesign/tpa-redesign-02.png'},
