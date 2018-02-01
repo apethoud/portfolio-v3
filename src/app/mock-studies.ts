@@ -478,17 +478,17 @@ export const STUDIES: Study[] = [
       strategyDetails: [
         {
           title: "Initial Concepting",
-          imageUrl: "../../../assets/office-teal-monochrome.png",
+          imageUrl: "../../../assets/foresight-icons/design-strategy-01.png",
           content: "I started with a list of our most unique and important features. Then I started sketching how to best convey those concepts with visual elements."
         },
         {
           title: "Unifying the Set",
-          imageUrl: "../../../assets/office-teal-monochrome.png",
+          imageUrl: "../../../assets/foresight-icons/design-strategy-02.png",
           content: "After working through several ideas, I settled on seven concepts and began digitally rendering them. I decided to use only one line width throughout all the icons in order to create a sense of unity between them. In addition, I strategically used dashed lines to emphasize certain details in many of the icons."
         },
         {
           title: "Unifying Our Brand Message",
-          imageUrl: "../../../assets/office-teal-monochrome.png",
+          imageUrl: "../../../assets/foresight-icons/design-strategy-03.png",
           content: "I chose to use purple for all the icons in order to emphasize our brand identity. These icons were to be used in all our marketing materials, which meant that they would always be in close proximity to our logo. Using the color purple both unified the icons as a set, and unified our marketing materials visually."
         },
       ]
