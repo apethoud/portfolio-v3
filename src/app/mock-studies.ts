@@ -277,22 +277,22 @@ export const STUDIES: Study[] = [
       strategyDetails: [
         {
           title: "A Lot to Work With",
-          imageUrl: "../../../assets/office-teal-monochrome.png",
+          imageUrl: "../../../assets/tpa-redesign/design-strategy-01.png",
           content: "The size and scope of this app was bigger than any I had previously worked on. I began by looking through all the code to become familiar with how it was built."
         },
         {
           title: "Divide and Conquer",
-          imageUrl: "../../../assets/office-teal-monochrome.png",
+          imageUrl: "../../../assets/tpa-redesign/design-strategy-02.png",
           content: "I then broke the project up into several chunks and prioritized the top-level features first. That way, I could build out smaller components without running into design issues."
         },
         {
           title: "Regular Communication",
-          imageUrl: "../../../assets/office-teal-monochrome.png",
+          imageUrl: "../../../assets/tpa-redesign/design-strategy-03.png",
           content: "After I finished each major feature, I informed my supervisor of my progress and any issues that arose that might affect the development schedule."
         },
         {
           title: "The Final Result",
-          imageUrl: "../../../assets/office-teal-monochrome.png",
+          imageUrl: "../../../assets/tpa-redesign/design-strategy-04.png",
           content: "Eventually I had a completed, redesigned version of the application. From there, I tested it to resolve any bugs in the user flow. Then I sent the final project. I'm very proud of how it turned out. It matched the visual specification and would provide a better user experience to our clients."
         },
       ]
