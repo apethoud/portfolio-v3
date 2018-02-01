@@ -26,6 +26,10 @@ section#contact {
           border: 2px solid $med-teal;
           border-radius: 0.15em;
         }
+
+        &.gotcha {
+          display: none;
+        }
       }
 
       button {
