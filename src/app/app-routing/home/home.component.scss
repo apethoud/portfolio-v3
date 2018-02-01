@@ -1,0 +1,129 @@
+@import '../../../global-variables';
+
+section.hero {
+  background-image: url('../../../assets/office-teal-monochrome.png');
+  background-size: cover;
+  height: 80vh;
+
+  h1 {
+    position: absolute;
+    top: 30vh;
+    left: 10vw;
+    color: $white;
+    // font-size: 2em;
+  }
+}
+
+section#highlights {
+  margin: 8vw 0;
+
+  .highlight {
+    padding: 1vw;
+    padding-bottom: 2vw;
+
+    img {
+      margin: 0 auto;
+    }
+
+    @media only screen and (max-width: 440px) {
+      img {
+        width: 60vw;
+      }
+    }
+
+    h3.title {
+      font-weight: 700;
+      color: $med-teal;
+      text-align: center;
+    }
+
+    p.description {
+      // font-size: 0.75em;
+      text-align: center;
+    }
+  }
+}
+
+section#case-studies {
+  margin: 8vw 0;
+
+  h2.section-header {
+    // font-size: 0.9em;
+    text-align: center;
+    margin-bottom: 2vw;
+    color: $light-teal;
+    font-weight: 700;
+  }
+
+  .case-study {
+    padding: 1vw;
+    padding-bottom: 2vw;
+    // border-radius: 2vw;
+    // border: 2px solid transparent;
+    cursor: pointer;
+    transition: background-color, 0.15s;
+    background-color: darken($white, 5%);
+
+    &:hover {
+      // border: 2px solid black;
+      background-color: lighten($gray, 60%);
+    }
+
+    img {
+      -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+              box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    }
+
+    .text-box {
+      padding: 1vw;
+
+      h3.title {
+        font-weight: 700;
+        color: $med-teal;
+        text-align: center;
+      }
+
+      p.description {
+        // font-size: 0.75em;
+      }
+    
+      h3.software-header {
+        font-size: 0.8em;
+        font-weight: 700;
+        color: $med-teal-half;
+        text-transform: uppercase;
+      }
+    
+      ul.software {
+    
+        li {
+          font-size: 0.8em;
+          margin: 0 0.2em;
+          padding: 0 0.45em;
+          list-style: none;
+          display: inline-block;
+          background-color: $med-teal-min;
+          color: $black;
+          // font-weight: 700;
+          border-radius: 0.75em;
+          -webkit-border-radius: 0.75em;
+          -moz-border-radius: 0.75em;
+          -ms-border-radius: 0.75em;
+        }
+      }
+    }
+  }
+}
+
+section#about {
+  padding: 8vw 0;
+  background-color: $med-teal;
+  color: $white;
+
+  @media only screen and (max-width: 440px) {
+    img {
+      width: 60vw;
+    }
+  }
+}

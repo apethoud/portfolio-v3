@@ -1,0 +1,51 @@
+@import '../global-variables';
+
+header {
+  position: absolute;
+
+  ul.nav {
+    width: 100vw;
+    display: flex;
+    padding-right: 2vw;
+
+    li {
+      list-style: none;
+      // font-size: 0.75em;
+      padding: 1.3vw 2vw;
+      color: $white;
+      cursor: pointer;
+
+      &.logo {
+        margin-right: auto;
+        width: 7vw;
+        padding-top: 0.9vw;
+
+        svg {
+          fill: $white;
+          width: 7vw;
+        }
+
+        @media only screen and (max-width: 440px) {
+          svg {
+            width: 24vw;
+          }
+        }
+      }
+
+      &.case-studies, &.about, &.contact {
+        visibility: hidden;
+      }
+    }
+  }
+}
+
+footer {
+  background-color: $gray;
+  
+  p.copyright {
+    font-size: 0.6em;
+    padding: 1em;
+    color: $white;
+    text-align: center;
+  }
+}

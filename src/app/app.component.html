@@ -1,20 +1,37 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{title}}!
-  </h1>
-  <img width="300" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
-
+<header>
+  <ul class="nav" role="navigation">
+    <li class="logo" routerLink="/home">
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+        <g>
+          <path d="M9.21,35.52c-0.21-0.37-0.59-0.6-1.01-0.6c-0.42,0-0.81,0.21-1.03,0.58L3.1,42.36c-0.22,0.37-0.22,0.81-0.01,1.18
+            c0.21,0.37,0.59,0.6,1.02,0.6h7.93c0.42,0,0.8-0.22,1.02-0.58c0.21-0.37,0.22-0.8,0.01-1.17L9.21,35.52z"/>
+          <path d="M20.58,32.2h-7.93c-0.42,0-0.8,0.22-1.02,0.58c-0.21,0.37-0.22,0.8-0.01,1.17l3.86,6.86c0.21,0.37,0.59,0.6,1.01,0.6
+            c0,0,0.01,0,0.01,0c0.42,0,0.8-0.21,1.01-0.58l4.07-6.86c0.22-0.37,0.22-0.81,0.01-1.18C21.39,32.42,21.01,32.2,20.58,32.2z"/>
+          <path d="M38.53,32.79c-0.21-0.37-0.59-0.6-1.02-0.6h-7.93c-0.42,0-0.8,0.22-1.02,0.58c-0.21,0.37-0.22,0.8-0.01,1.17l3.86,6.86
+            c0.21,0.37,0.59,0.6,1.01,0.6c0,0,0.01,0,0.01,0c0.42,0,0.8-0.21,1.01-0.58l4.07-6.86C38.74,33.61,38.75,33.16,38.53,32.79z"/>
+          <path d="M46.93,42.38l-3.86-6.86c-0.21-0.37-0.59-0.6-1.01-0.6c-0.42,0-0.81,0.21-1.03,0.58l-4.07,6.86
+            c-0.22,0.37-0.22,0.81-0.01,1.18c0.21,0.37,0.6,0.6,1.02,0.6h7.93c0.42,0,0.8-0.22,1.02-0.58C47.13,43.19,47.13,42.75,46.93,42.38z
+            "/>
+          <path d="M17.52,20.97c-0.21-0.36-0.59-0.58-1.01-0.58c0,0-0.01,0-0.01,0c-0.43,0-0.8,0.23-1.01,0.6l-3.86,6.86
+            c-0.21,0.37-0.2,0.81,0.01,1.17c0.21,0.37,0.59,0.58,1.02,0.58h7.93c0.43,0,0.81-0.22,1.02-0.6c0.21-0.37,0.21-0.82-0.01-1.18
+            L17.52,20.97z"/>
+          <path d="M29.99,18.25c-0.21-0.37-0.59-0.58-1.02-0.58h-7.93c-0.43,0-0.81,0.22-1.02,0.6c-0.21,0.37-0.21,0.82,0.01,1.18l4.07,6.86
+            c0.21,0.36,0.59,0.58,1.01,0.58c0,0,0.01,0,0.01,0c0.43,0,0.8-0.23,1.01-0.6L30,19.42C30.2,19.05,30.2,18.61,29.99,18.25z"/>
+          <path d="M29.58,29.61h7.93c0.43,0,0.81-0.22,1.02-0.6c0.21-0.37,0.21-0.82-0.01-1.18l-4.07-6.86c-0.22-0.37-0.61-0.59-1.03-0.58
+            c-0.43,0-0.8,0.23-1.01,0.6l-3.86,6.86c-0.21,0.37-0.2,0.81,0.01,1.17C28.77,29.39,29.15,29.61,29.58,29.61z"/>
+          <path d="M21.04,15.08h7.93c0.42,0,0.8-0.22,1.02-0.58c0.21-0.37,0.22-0.8,0.01-1.17l-3.86-6.86c-0.21-0.37-0.59-0.6-1.01-0.6
+            c0,0-0.01,0-0.01,0c-0.42,0-0.8,0.21-1.01,0.58l-4.07,6.86c-0.22,0.37-0.22,0.81-0.01,1.18C20.23,14.86,20.61,15.08,21.04,15.08z"
+          />
+        </g>
+      </svg>
+    </li>
+    <li class="case-studies" href="#case-studies">Case Studies</li>
+    <li class="about" href="#about">About</li>
+    <li class="contact" href="#contact">Contact</li>
+  </ul>
+</header>
+<router-outlet></router-outlet>
+<footer>
+  <p class="copyright">Copyright 2017 Andrew Pethoud. All Rights Reserved.</p>
+</footer>

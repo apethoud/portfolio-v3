@@ -1,0 +1,60 @@
+<section class="nav-background"></section>
+
+<div class="study" *ngIf="study">
+  <section class="case-study-header">
+    <div class="ui container">
+      <h1>{{ study.title }}</h1>
+      <div #hero class="hero" dragScroll>
+        <div class="hero-images" *ngFor="let heroImg of study.heroImages">
+          <img src="{{ heroImg.img }}" alt="">
+        </div>
+      </div>
+      <div class="buttons">
+        <div class="button-wrapper">
+          <button class="ui button left" (click)="moveLeft()">&#60;</button>
+          <button class="ui button right" (click)="moveRight()">&#62;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="featured-items">
+    <div class="ui container">
+      <div class="ui stackable three column grid">
+        <div class="column" *ngFor="let column of this.featuredColumns">
+          <div class="featured-item" *ngFor="let item of column">
+            <img src="{{ item.icon }}" alt="" class="ui tiny circular centered image">
+            <div class="text-box">
+              <h3 class="title">{{ item.title }}</h3>
+              <p *ngIf="this.isString(item.content)" class="content">{{ item.content }}</p>
+              <ul *ngIf="!this.isString(item.content)" class="content">
+                <li *ngFor="let bullet of item.content">{{ bullet }}</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="design-strategy">
+    <div class="ui container">
+      <div class="design-strategy-header">
+        <img src="{{ study.designStrategy.icon }}" alt="" class="ui tiny circular centered image icon">
+        <div class="text-box">
+          <h2 class="title">{{ study.designStrategy.title }}</h2>
+          <p class="content">{{ study.designStrategy.content }}</p>
+          <div class="design-strategy-details">
+            <div class="detail" *ngFor="let details of study.designStrategy.strategyDetails">
+              <h3 class="title">{{ details.title }}</h3>
+              <p class="content">{{ details.content }}</p>
+              <img src="{{ details.imageUrl }}" class="ui image detail-image" alt="" *ngIf="details.imageUrl">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<app-contact-form></app-contact-form>

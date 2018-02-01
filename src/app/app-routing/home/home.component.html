@@ -1,0 +1,53 @@
+<section class="hero">
+  <h1>Web assets ready for launch</h1>
+</section>
+
+<section id="highlights">
+  <div class="ui container">
+    <div class="ui stackable three column grid">
+      <div class="column" *ngFor="let highlight of highlights">
+        <div class="highlight">
+          <img src="{{ highlight.icon }}" class="ui medium circular image" alt="">
+          <h3 class="title">{{ highlight.title }}</h3>
+          <p class="description">{{ highlight.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="case-studies">
+  <h2 class="section-header">Case Studies</h2>
+  <div class="ui container">
+    <div class="ui stackable three column grid">
+      <div class="column" *ngFor="let study of studies">
+        <div class="case-study" routerLink="/case-studies/{{ study.name }}">
+          <img src="{{ study.thumbnailImage }}" class="ui image" alt="">
+          <div class="text-box">
+            <h3 class="title">{{ study.title }}</h3>
+            <p class="description">{{ study.description }}</p>
+            <h3 class="software-header">Software Used:</h3>
+            <ul class="software">
+              <li *ngFor="let software of study.software">{{ software }}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="ui container">
+    <div class="ui stackable two column grid">
+      <div class="column">
+        <img src="http://via.placeholder.com/300x300" alt="" class="profile-pic ui medium circular centered image">
+      </div>
+      <div class="column">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, temporibus deserunt? Sed rerum odio expedita eius cumque rem provident, dicta ratione, voluptatem voluptates sapiente earum dignissimos necessitatibus enim, corrupti quaerat.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<app-contact-form></app-contact-form>
