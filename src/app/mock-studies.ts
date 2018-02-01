@@ -305,6 +305,7 @@ export const STUDIES: Study[] = [
     software: ['Illustrator'],
     thumbnailImage: '../../../assets/robot-t-shirt/thumbnail.png',
     heroImages: [
+      {img: '../../../assets/robot-t-shirt/shirt-photo.png'},
       {img: '../../../assets/robot-t-shirt/robots-all.png'},
       {img: '../../../assets/robot-t-shirt/robot-01.png'},
       {img: '../../../assets/robot-t-shirt/robot-02.png'},
@@ -386,17 +387,17 @@ export const STUDIES: Study[] = [
         },
         {
           title: "One Cohesive Set",
-          imageUrl: "../../../assets/office-teal-monochrome.png",
+          imageUrl: "../../../assets/robot-t-shirt/design-strategy-02.png",
           content: "I settled on nine robot concepts, then began digitally rendering them. In order to make the nine designs cohesive as a set, I decided to use only two line widths throughout all the designs: one for main structural features and another for accents and small details. I also decided to reuse certain circle sizes over several robots, which further created unity between them."
         },
         {
           title: "Color Options",
-          imageUrl: "../../../assets/office-teal-monochrome.png",
+          imageUrl: "../../../assets/robot-t-shirt/design-strategy-03.png",
           content: "Finally, I chose to simply print them in white on colored t-shirts. This gave the visual contrast that I wanted, while also providing potential customers with several color options to choose from."
         },
         {
           title: "The Outcome",
-          imageUrl: "../../../assets/office-teal-monochrome.png",
+          imageUrl: "../../../assets/robot-t-shirt/thumbnail.png",
           content: "The design was a hit! We sold 55 t-shirts and raised $440 from sales alone. The project gave many people in my work community the opportunity to not only get a fun t-shirt, but also support a cause important to them and our company."
         },
       ]
