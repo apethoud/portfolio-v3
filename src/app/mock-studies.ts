@@ -381,7 +381,7 @@ export const STUDIES: Study[] = [
       strategyDetails: [
         {
           title: "Robot Research",
-          imageUrl: "../../../assets/office-teal-monochrome.png",
+          imageUrl: "../../../assets/robot-t-shirt/design-strategy-01.png",
           content: "I started the design process by doing extensive research on vintage robot design. I made dozens of sketches that integrated popular features from actual vintage robots."
         },
         {
