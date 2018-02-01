@@ -559,27 +559,27 @@ export const STUDIES: Study[] = [
       strategyDetails: [
         {
           title: "The Study of War",
-          imageUrl: "../../../assets/office-teal-monochrome.png",
+          imageUrl: "../../../assets/robot-fight-club/design-strategy-01.png",
           content: "I started by doing extensive research into the world of robot fighting. As I watched videos of both popular TV shows and small, locally-organized events, I sketched out bits and pieces of the robots I saw: their weapons, drive systems, and defenses."
         },
         {
           title: "Common Elements",
-          imageUrl: "../../../assets/office-teal-monochrome.png",
+          imageUrl: "../../../assets/robot-fight-club/design-strategy-02.png",
           content: "From there, I took careful note of any repetition of shapes that I noticed. I found that there were several shapes and forms that were very common among robots involved in fighting competitions. The most prevalent by far was spinning circular blades."
         },
         {
           title: "Spinners are Winners",
-          imageUrl: "../../../assets/office-teal-monochrome.png",
+          imageUrl: "../../../assets/robot-fight-club/design-strategy-03.png",
           content: "I chose to base several of my logo concepts off of a common and effective robot design: a spinning robot equipped with blades around its exterior."
         },
         {
           title: "Refining the Concept",
-          imageUrl: "../../../assets/office-teal-monochrome.png",
+          imageUrl: "../../../assets/robot-fight-club/design-strategy-04.png",
           content: "After showing six different concepts to the client, they chose the one they liked best and I got to work refining that concept. I experimented with several variations on the form and worked to create a sense of unity with the types of lines and shapes that I used. The sharp points of the blade tips became shapes that I carried through the letter forms as well. I oriented the icon in such a way that it seemed to point to the word it accompanied. Lastly, I chose to place the icon very close to the word to further convey the idea of danger. It looks as if it is about to cut right through it!"
         },
         {
           title: "The Final Product",
-          imageUrl: "../../../assets/office-teal-monochrome.png",
+          imageUrl: "../../../assets/robot-fight-club/thumbnail.png",
           content: "The final product is cohesive in its shape and form. I chose a particular shade of green for the logo that conveys energy, mystery, and a science fiction vibe. It also causes the logo to stand out from other local groups that do robotics, both for sport and more traditional purposes. Many of those used blues (by far the most common) and reds, so green was a good, distinct choice."
         },
       ]
