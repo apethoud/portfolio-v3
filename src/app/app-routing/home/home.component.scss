@@ -126,4 +126,14 @@ section#about {
       width: 60vw;
     }
   }
+
+  .bio {
+    color: $med-teal-min;
+
+    p.bio-header {
+      font-weight: 700;
+      color: $white;
+    }
+  }
+
 }
