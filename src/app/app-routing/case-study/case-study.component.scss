@@ -87,7 +87,13 @@
         }
 
         .featured-item {
-          margin-top: 6vw;
+          // margin-top: 6vw;
+          margin-top: -6vw;
+
+          .text-box {
+            padding: 4vw !important;
+            padding-top: 6vw !important;
+          }
         }
       }
 
@@ -95,6 +101,7 @@
         position: relative;
 
         img {
+          visibility: hidden;
           position: relative;
           top: 2vw;
           z-index: 50;
@@ -112,6 +119,10 @@
             color: $med-teal;
             font-weight: 700;
             text-transform: uppercase;
+          }
+
+          ul {
+            padding-left: 1em;
           }
         }
       }
