@@ -37,6 +37,17 @@
     </div>
   </section>
 
+  <section class="closer-look" *ngIf="this.safeURL">
+    <div class="ui container">
+      <div class="closer-look-content">
+        <h2 class="title">A Closer Look</h2>
+        <div class="video-wrapper">
+          <iframe [src]="this.safeURL" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="design-strategy">
     <div class="ui container">
       <div class="design-strategy-header">

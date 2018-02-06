@@ -1,4 +1,5 @@
 import { Component, OnInit, Input, ViewChild } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
 
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
@@ -20,10 +21,12 @@ export class CaseStudyComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private caseStudyService: CaseStudyService,
-    private location: Location
+    private location: Location,
+    private _sanitizer: DomSanitizer,
   ) { }
 
   featuredColumns = [];
+  safeURL;
 
   ngOnInit(): void {
     this.getCaseStudy();
@@ -33,8 +36,9 @@ export class CaseStudyComponent implements OnInit {
     const name = this.route.snapshot.paramMap.get('name');
     this.caseStudyService.getCaseStudy(name)
       .subscribe(study => {
-        this.study = study
+        this.study = study;
         this.populateColumns();
+        if(this.study.featuredVideo) this.prepareVideo();
       });
   }
 
@@ -52,6 +56,10 @@ export class CaseStudyComponent implements OnInit {
       that.featuredColumns.push(column);
     });
   };
+
+  prepareVideo() {
+    this.safeURL = this._sanitizer.bypassSecurityTrustResourceUrl(this.study.featuredVideo);
+  }
 
   isString(itemContent) {
     return typeof itemContent === 'string';
