@@ -1,7 +1,7 @@
 @import '../../../global-variables';
 
 section.hero {
-  background-image: url('../../../assets/office-teal-monochrome.png');
+  background-image: url('../../../assets/home-hero.png');
   background-size: cover;
   height: 80vh;
 
@@ -10,7 +10,14 @@ section.hero {
     top: 30vh;
     left: 10vw;
     color: $white;
+    width: 80vw;
     // font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  section.hero {
+    background-position: 15% top;
   }
 }
 
