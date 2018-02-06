@@ -118,6 +118,37 @@
     
   }
 
+  section.closer-look {
+
+    .closer-look-content {
+      margin: 6vw 12vw;
+
+      h2.title {
+        text-align: center;
+        color: $light-teal;
+        font-weight: 700;
+      }
+
+      .video-wrapper {
+        position:relative;
+        padding-bottom:56.25%;
+        padding-top:30px;
+        height:0;
+        overflow:hidden;
+
+        iframe {
+          display: block;
+          margin: 0 auto;
+          position:absolute;
+          top:0;
+          left:0;
+          width:100%;
+          height:100%;
+        }
+      }
+    }
+  }
+
   section.design-strategy {
 
     .design-strategy-header {

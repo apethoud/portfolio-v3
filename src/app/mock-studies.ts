@@ -7,6 +7,7 @@ export const STUDIES: Study[] = [
     description: 'A forward-thinking and accurate personal finance app.', 
     software: ['HTML', 'CSS', 'AngularJS', 'Illustrator'],
     thumbnailImage: '../../../assets/foresight-budgets/thumbnail.png',
+    featuredVideo: 'https://www.youtube.com/embed/TiWSQhGSqVU?rel=0',
     heroImages: [
       {img: '../../../assets/foresight-budgets/foresight-ui-bg-01.png'},
       {img: '../../../assets/foresight-budgets/foresight-ui-bg-02.png'},
@@ -120,6 +121,7 @@ export const STUDIES: Study[] = [
     description: 'A modern in-store kiosk used by restaurant employees to process incoming orders from their mobile app.', 
     software: ['HTML', 'CSS', 'Angular 2', 'Illustrator'],
     thumbnailImage: '../../../assets/ordrslip-kiosk/thumbnail.png',
+    featuredVideo: '',
     heroImages: [
       {img: '../../../assets/ordrslip-kiosk/ordrslip-kiosk-bg-01.png'},
       {img: '../../../assets/ordrslip-kiosk/ordrslip-kiosk-bg-02.png'},
@@ -217,6 +219,7 @@ export const STUDIES: Study[] = [
     description: 'A new look for a healthcare Third-Party Administrator.', 
     software: ['HTML', 'CSS', 'Angular 2'],
     thumbnailImage: '../../../assets/tpa-redesign/thumbnail.png',
+    featuredVideo: '',
     heroImages: [
       {img: '../../../assets/tpa-redesign/tpa-redesign-01.png'},
       {img: '../../../assets/tpa-redesign/tpa-redesign-02.png'},
@@ -304,6 +307,7 @@ export const STUDIES: Study[] = [
     description: 'A robot-themed t-shirt design.', 
     software: ['Illustrator'],
     thumbnailImage: '../../../assets/robot-t-shirt/thumbnail.png',
+    featuredVideo: '',
     heroImages: [
       {img: '../../../assets/robot-t-shirt/shirt-photo.png'},
       {img: '../../../assets/robot-t-shirt/robots-all.png'},
@@ -409,6 +413,7 @@ export const STUDIES: Study[] = [
     description: 'A set of marketing icons for a personal finance app called Foresight Budgets.', 
     software: ['Illustrator'],
     thumbnailImage: '../../../assets/foresight-icons/thumbnail.png',
+    featuredVideo: '',
     heroImages: [
       {img: '../../../assets/foresight-icons/hero-all.png'},
       {img: '../../../assets/foresight-icons/hero-01.png'},
@@ -500,6 +505,7 @@ export const STUDIES: Study[] = [
     description: 'A logo for a local robot fighting competition.', 
     software: ['Illustrator'],
     thumbnailImage: '../../../assets/robot-fight-club/thumbnail.png',
+    featuredVideo: '',
     heroImages: [
       {img: '../../../assets/robot-fight-club/rfc-green-on-black.png'},
       {img: '../../../assets/robot-fight-club/rfc-green-on-white.png'},
