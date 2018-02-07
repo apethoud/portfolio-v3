@@ -3,6 +3,12 @@
 section#contact {
   margin: 8vw 0;
 
+  @media only screen and (max-width: 440px) {
+    .contact-text p {
+      margin: 0 5vw 1em;
+    }
+  }
+
   .contact-form {
 
     form {

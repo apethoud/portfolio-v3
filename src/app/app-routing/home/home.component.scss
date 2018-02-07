@@ -153,4 +153,9 @@ section#about {
     }
   }
 
+  @media only screen and (max-width: 440px) {
+    .bio p {
+      margin: 0 5vw 1em;
+    }
+  }
 }
