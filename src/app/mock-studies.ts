@@ -304,7 +304,7 @@ export const STUDIES: Study[] = [
   {
     name: 'robot-t-shirt',
     title: 'Robot T-Shirt', 
-    description: 'A robot-themed t-shirt design.', 
+    description: 'A robot-themed t-shirt design created for a fundraiser.', 
     software: ['Illustrator'],
     thumbnailImage: '../../../assets/robot-t-shirt/thumbnail.png',
     featuredVideo: '',
