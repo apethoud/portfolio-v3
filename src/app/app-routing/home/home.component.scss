@@ -120,6 +120,12 @@ section#case-studies {
         }
       }
     }
+
+    @media only screen and (max-width: 440px) {
+      .text-box {
+        padding: 5vw;
+      }
+    }
   }
 }
 
