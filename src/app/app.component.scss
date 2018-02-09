@@ -41,6 +41,12 @@ header {
 
 footer {
   background-color: $gray;
+
+  .social-media {
+    width: 100vw;
+    text-align: center;
+    color: $white;
+  }
   
   p.copyright {
     font-size: 0.6em;
