@@ -40,18 +40,29 @@ header {
 }
 
 footer {
-  background-color: $gray;
+  padding: 10px;
+  background-color: $med-teal;
 
   .social-media {
-    width: 100vw;
+    padding: 10px;
+    font-size: 2.5em;
     text-align: center;
-    color: $white;
+
+    .icon {
+      margin: 0 10px;
+      display: inline-block;
+      color: $med-teal-min;
+
+      &:hover {
+        color: $light-teal;
+      }
+    }
   }
   
   p.copyright {
     font-size: 0.6em;
-    padding: 1em;
-    color: $white;
+    padding: 10px;
+    color: $med-teal-min;
     text-align: center;
   }
 }
