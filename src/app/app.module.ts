@@ -11,12 +11,14 @@ import { HighlightService } from './app-routing/highlight.service';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 
 import { DragScrollModule } from 'ngx-drag-scroll';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 @NgModule({
   imports: [
     BrowserModule,
     AppRoutingModule,
     DragScrollModule,
+    AngularFontAwesomeModule,
   ],
   declarations: [
     AppComponent,

@@ -20,6 +20,7 @@
       "prefix": "app",
       "styles": [
         "../node_modules/semantic-ui-css/semantic.css",
+        "../node_modules/font-awesome/css/font-awesome.css",
         "styles.scss"
       ],
       "scripts": [
