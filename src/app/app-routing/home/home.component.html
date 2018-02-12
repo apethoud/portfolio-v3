@@ -21,17 +21,19 @@
   <div class="ui container">
     <div class="ui stackable three column grid">
       <div class="column" *ngFor="let study of studies">
-        <div class="case-study" routerLink="/case-studies/{{ study.name }}">
-          <img src="{{ study.thumbnailImage }}" class="ui image" alt="">
-          <div class="text-box">
-            <h3 class="title">{{ study.title }}</h3>
-            <p class="description">{{ study.description }}</p>
-            <h3 class="software-header">Software Used:</h3>
-            <ul class="software">
-              <li *ngFor="let software of study.software">{{ software }}</li>
-            </ul>
+        <a routerLink="/case-studies/{{ study.name }}">
+          <div class="case-study">
+            <img src="{{ study.thumbnailImage }}" class="ui image" alt="">
+            <div class="text-box">
+              <h3 class="title">{{ study.title }}</h3>
+              <p class="description">{{ study.description }}</p>
+              <h3 class="software-header">Software Used:</h3>
+              <ul class="software">
+                <li *ngFor="let software of study.software">{{ software }}</li>
+              </ul>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   </div>
@@ -44,9 +46,9 @@
         <img src="../../../assets/profile-pic.png" alt="" class="profile-pic ui medium circular centered image">
       </div>
       <div class="column bio">
-          <p class="bio-header">Hey, I'm Andrew Pethoud, a web developer and graphic designer based in Fresno, CA.</p>
-          <p>I have experience creating everything from simple websites to complex web and mobile applications.</p>
-          <p>For me, web development and design is a way for me to contribute to society and serve the city that I love.</p>
+        <p class="bio-header">Hey, I'm Andrew Pethoud, a web developer and graphic designer based in Fresno, CA.</p>
+        <p>I have experience creating everything from simple websites to complex web and mobile applications.</p>
+        <p>For me, web development and design is a way for me to contribute to society and serve the city that I love.</p>
       </div>
     </div>
   </div>
