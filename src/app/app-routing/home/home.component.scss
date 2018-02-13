@@ -70,6 +70,7 @@ section#case-studies {
     cursor: pointer;
     transition: background-color, 0.15s;
     background-color: darken($white, 5%);
+    color: $black;
 
     &:hover {
       // border: 2px solid black;

@@ -44,6 +44,10 @@ section#contact {
         text-transform: uppercase;
         background-color: $light-teal;
         color: $white;
+
+        &:focus {
+          box-shadow: 0 0 10px 2px $dark-teal;
+        }
       }
     }
 
